@@ -1,0 +1,6 @@
+# Topic dependency graph
+# Edge semantics:
+# - required: strong prerequisite
+# - recommended: useful but optional prerequisite
+
+edges: []

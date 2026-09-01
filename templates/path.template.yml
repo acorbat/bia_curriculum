@@ -1,0 +1,23 @@
+id: PATH-<slug>
+name: <Path name>
+target_audience: biology   # biology | physics | computer_science | mixed
+summary: <1-3 sentence summary>
+
+constraints:
+  total_minutes: 0
+  format: blended          # workshop | semester | blended
+
+topics_ordered:
+  - TOP-<topic-id-1>
+  - TOP-<topic-id-2>
+
+optional_bridge_topics:
+  - TOP-<bridge-topic-id>
+
+outcomes:
+  - <Outcome 1>
+
+status:
+  maturity: draft
+  owner: curriculum-team
+  last_updated: YYYY-MM-DD

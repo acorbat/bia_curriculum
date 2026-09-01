@@ -1,0 +1,55 @@
+id: TOP-<slug>
+title: <Topic title>
+subject_id: SUBJ-<slug>
+summary: <1-3 sentence summary>
+
+learning_outcomes:
+  - <Outcome 1>
+  - <Outcome 2>
+
+prerequisites:
+  required:
+    - TOP-<required-topic-id>
+  recommended:
+    - TOP-<recommended-topic-id>
+
+estimated_time:
+  lecture_minutes: 0
+  practical_minutes: 0
+  self_study_minutes: 0
+  total_minutes: 0
+
+level:
+  bloom_min: understand
+  bloom_target: apply
+  difficulty: foundational   # foundational | intermediate | advanced
+
+audience_prior_knowledge:
+  biology: low               # low | medium | high
+  physics: low
+  computer_science: low
+
+skill_overlap:
+  likely_known_by: []
+  likely_new_for: []
+
+delivery:
+  format_options:
+    - lecture
+  assessment:
+    - quiz
+
+dependencies:
+  enables: []
+
+tags: []
+
+references:
+  - type: publication
+    citation: ""
+    url: ""
+
+status:
+  maturity: draft            # draft | reviewed | approved
+  owner: curriculum-team
+  last_updated: YYYY-MM-DD

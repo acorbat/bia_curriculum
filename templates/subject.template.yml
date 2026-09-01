@@ -1,0 +1,38 @@
+id: SUBJ-<slug>
+name: <Subject name>
+summary: <1-3 sentence summary>
+
+topics:
+  - TOP-<topic-id-1>
+  - TOP-<topic-id-2>
+
+learning_goals:
+  - <Goal 1>
+  - <Goal 2>
+
+recommended_order:
+  - TOP-<topic-id-1>
+  - TOP-<topic-id-2>
+
+estimated_time:
+  total_lecture_minutes: 0
+  total_practical_minutes: 0
+  total_self_study_minutes: 0
+  total_minutes: 0
+
+audience_fit:
+  primary:
+    - biology
+    - physics
+    - computer_science
+  notes: ""
+
+references:
+  - type: publication
+    citation: ""
+    url: ""
+
+status:
+  maturity: draft            # draft | reviewed | approved
+  owner: curriculum-team
+  last_updated: YYYY-MM-DD
