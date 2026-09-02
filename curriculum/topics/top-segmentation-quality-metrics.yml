@@ -1,0 +1,60 @@
+id: TOP-segmentation-quality-metrics
+title: Segmentation Quality Metrics
+subject_id: SUBJ-segmentation-detection
+summary: Metric-based evaluation of segmentation outputs and annotation agreement.
+learning_outcomes:
+  - Compute overlap and boundary-based quality metrics.
+  - Interpret metric values in context of downstream biological decisions.
+prerequisites:
+  required:
+    - TOP-classical-segmentation-methods
+  recommended:
+    - TOP-ml-segmentation-overview
+    - TOP-statistical-testing-and-effect-sizes
+estimated_time:
+  lecture_minutes: 35
+  practical_minutes: 45
+  self_study_minutes: 40
+  total_minutes: 120
+level:
+  bloom_min: understand
+  bloom_target: apply
+  difficulty: foundational
+audience_prior_knowledge:
+  biology: low
+  physics: low
+  computer_science: medium
+skill_overlap:
+  likely_known_by:
+    - computer_science
+  likely_new_for:
+    - biology
+    - physics
+delivery:
+  format_options:
+    - lecture
+    - guided-exercise
+  assessment:
+    - quiz
+    - practical-checkpoint
+dependencies:
+  enables:
+    - TOP-feature-extraction-morphology-intensity-texture
+    - TOP-domain-case-study-cell-biology
+tags:
+  - segmentation
+  - metrics
+  - validation
+references:
+  -
+    type: publication
+    citation: Journal of Microscopy competency framework (2025).
+    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+  -
+    type: training-module
+    citation: NEUBIAS Training Resources.
+    url: "https://neubias.github.io/training-resources/"
+status:
+  maturity: draft
+  owner: curriculum-team
+  last_updated: 2026-09-01

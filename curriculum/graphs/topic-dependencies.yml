@@ -1,6 +1,185 @@
-# Topic dependency graph
-# Edge semantics:
-# - required: strong prerequisite
-# - recommended: useful but optional prerequisite
-
-edges: []
+edges:
+  -
+    from: TOP-intro-bioimage-analysis
+    to: TOP-microscopy-modalities-overview
+    type: required
+  -
+    from: TOP-intro-bioimage-analysis
+    to: TOP-basic-wave-optics
+    type: required
+  -
+    from: TOP-basic-wave-optics
+    to: TOP-pixel-size-and-sampling
+    type: required
+  -
+    from: TOP-microscopy-modalities-overview
+    to: TOP-pixel-size-and-sampling
+    type: recommended
+  -
+    from: TOP-basic-wave-optics
+    to: TOP-psf-and-resolution
+    type: required
+  -
+    from: TOP-pixel-size-and-sampling
+    to: TOP-psf-and-resolution
+    type: required
+  -
+    from: TOP-noise-models
+    to: TOP-psf-and-resolution
+    type: recommended
+  -
+    from: TOP-intro-bioimage-analysis
+    to: TOP-noise-models
+    type: required
+  -
+    from: TOP-basic-wave-optics
+    to: TOP-noise-models
+    type: recommended
+  -
+    from: TOP-microscopy-modalities-overview
+    to: TOP-imaging-artifacts-and-bias
+    type: required
+  -
+    from: TOP-noise-models
+    to: TOP-imaging-artifacts-and-bias
+    type: recommended
+  -
+    from: TOP-intro-bioimage-analysis
+    to: TOP-bioimage-file-formats-and-metadata
+    type: required
+  -
+    from: TOP-bioimage-file-formats-and-metadata
+    to: TOP-ome-data-model-and-standards
+    type: required
+  -
+    from: TOP-bioimage-file-formats-and-metadata
+    to: TOP-data-management-and-quality-control
+    type: required
+  -
+    from: TOP-imaging-artifacts-and-bias
+    to: TOP-data-management-and-quality-control
+    type: recommended
+  -
+    from: TOP-imaging-artifacts-and-bias
+    to: TOP-background-correction-and-flat-fielding
+    type: required
+  -
+    from: TOP-noise-models
+    to: TOP-background-correction-and-flat-fielding
+    type: recommended
+  -
+    from: TOP-noise-models
+    to: TOP-denoising-classical-methods
+    type: required
+  -
+    from: TOP-pixel-size-and-sampling
+    to: TOP-denoising-classical-methods
+    type: recommended
+  -
+    from: TOP-pixel-size-and-sampling
+    to: TOP-image-registration-basics
+    type: required
+  -
+    from: TOP-imaging-artifacts-and-bias
+    to: TOP-image-registration-basics
+    type: recommended
+  -
+    from: TOP-psf-and-resolution
+    to: TOP-deconvolution-basics
+    type: required
+  -
+    from: TOP-pixel-size-and-sampling
+    to: TOP-deconvolution-basics
+    type: required
+  -
+    from: TOP-noise-models
+    to: TOP-deconvolution-basics
+    type: recommended
+  -
+    from: TOP-background-correction-and-flat-fielding
+    to: TOP-thresholding-and-binarization
+    type: required
+  -
+    from: TOP-denoising-classical-methods
+    to: TOP-thresholding-and-binarization
+    type: recommended
+  -
+    from: TOP-thresholding-and-binarization
+    to: TOP-classical-segmentation-methods
+    type: required
+  -
+    from: TOP-denoising-classical-methods
+    to: TOP-classical-segmentation-methods
+    type: recommended
+  -
+    from: TOP-deconvolution-basics
+    to: TOP-classical-segmentation-methods
+    type: recommended
+  -
+    from: TOP-classical-segmentation-methods
+    to: TOP-ml-segmentation-overview
+    type: required
+  -
+    from: TOP-workflows-scripting-and-reproducibility
+    to: TOP-ml-segmentation-overview
+    type: recommended
+  -
+    from: TOP-classical-segmentation-methods
+    to: TOP-segmentation-quality-metrics
+    type: required
+  -
+    from: TOP-ml-segmentation-overview
+    to: TOP-segmentation-quality-metrics
+    type: recommended
+  -
+    from: TOP-statistical-testing-and-effect-sizes
+    to: TOP-segmentation-quality-metrics
+    type: recommended
+  -
+    from: TOP-classical-segmentation-methods
+    to: TOP-feature-extraction-morphology-intensity-texture
+    type: required
+  -
+    from: TOP-image-registration-basics
+    to: TOP-feature-extraction-morphology-intensity-texture
+    type: recommended
+  -
+    from: TOP-segmentation-quality-metrics
+    to: TOP-feature-extraction-morphology-intensity-texture
+    type: recommended
+  -
+    from: TOP-feature-extraction-morphology-intensity-texture
+    to: TOP-statistical-testing-and-effect-sizes
+    type: required
+  -
+    from: TOP-statistical-testing-and-effect-sizes
+    to: TOP-experimental-design-controls-and-power
+    type: required
+  -
+    from: TOP-data-management-and-quality-control
+    to: TOP-experimental-design-controls-and-power
+    type: recommended
+  -
+    from: TOP-data-management-and-quality-control
+    to: TOP-workflows-scripting-and-reproducibility
+    type: required
+  -
+    from: TOP-ome-data-model-and-standards
+    to: TOP-workflows-scripting-and-reproducibility
+    type: recommended
+  -
+    from: TOP-feature-extraction-morphology-intensity-texture
+    to: TOP-domain-case-study-cell-biology
+    type: required
+  -
+    from: TOP-experimental-design-controls-and-power
+    to: TOP-domain-case-study-cell-biology
+    type: required
+  -
+    from: TOP-ml-segmentation-overview
+    to: TOP-domain-case-study-cell-biology
+    type: recommended
+  -
+    from: TOP-workflows-scripting-and-reproducibility
+    to: TOP-domain-case-study-cell-biology
+    type: recommended

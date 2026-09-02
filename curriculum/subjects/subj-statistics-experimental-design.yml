@@ -1,0 +1,36 @@
+id: SUBJ-statistics-experimental-design
+name: Statistics & Experimental Design
+summary: Statistical reasoning for reliable interpretation of image-derived measurements.
+topics:
+  - TOP-statistical-testing-and-effect-sizes
+  - TOP-experimental-design-controls-and-power
+learning_goals:
+  - Match statistical tools to experimental questions.
+  - Design experiments with appropriate controls and sample size.
+recommended_order:
+  - TOP-statistical-testing-and-effect-sizes
+  - TOP-experimental-design-controls-and-power
+estimated_time:
+  total_lecture_minutes: 0
+  total_practical_minutes: 0
+  total_self_study_minutes: 0
+  total_minutes: 0
+audience_fit:
+  primary:
+    - biology
+    - physics
+    - computer_science
+  notes: ""
+references:
+  -
+    type: publication
+    citation: Journal of Microscopy competency framework (2025).
+    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+  -
+    type: training-module
+    citation: NEUBIAS Training Resources.
+    url: "https://neubias.github.io/training-resources/"
+status:
+  maturity: draft
+  owner: curriculum-team
+  last_updated: 2026-09-01

@@ -1,0 +1,40 @@
+id: SUBJ-segmentation-detection
+name: Segmentation & Object Detection
+summary: Classical and modern approaches to identify biological structures in images.
+topics:
+  - TOP-thresholding-and-binarization
+  - TOP-classical-segmentation-methods
+  - TOP-ml-segmentation-overview
+  - TOP-segmentation-quality-metrics
+learning_goals:
+  - Compare segmentation methods and assumptions.
+  - Evaluate segmentation quality with objective metrics.
+recommended_order:
+  - TOP-thresholding-and-binarization
+  - TOP-classical-segmentation-methods
+  - TOP-ml-segmentation-overview
+  - TOP-segmentation-quality-metrics
+estimated_time:
+  total_lecture_minutes: 0
+  total_practical_minutes: 0
+  total_self_study_minutes: 0
+  total_minutes: 0
+audience_fit:
+  primary:
+    - biology
+    - physics
+    - computer_science
+  notes: ""
+references:
+  -
+    type: publication
+    citation: Journal of Microscopy competency framework (2025).
+    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+  -
+    type: training-module
+    citation: NEUBIAS Training Resources.
+    url: "https://neubias.github.io/training-resources/"
+status:
+  maturity: draft
+  owner: curriculum-team
+  last_updated: 2026-09-01

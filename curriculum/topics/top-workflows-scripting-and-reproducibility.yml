@@ -1,0 +1,61 @@
+id: TOP-workflows-scripting-and-reproducibility
+title: Workflows, Scripting, and Reproducibility
+subject_id: SUBJ-automation-reproducibility
+summary: From GUI pipelines to scripted workflows with provenance and version control.
+learning_outcomes:
+  - Automate repeatable workflows for batch analysis.
+  - Capture provenance and version information for reproducible reporting.
+prerequisites:
+  required:
+    - TOP-data-management-and-quality-control
+  recommended:
+    - TOP-ome-data-model-and-standards
+estimated_time:
+  lecture_minutes: 40
+  practical_minutes: 60
+  self_study_minutes: 60
+  total_minutes: 160
+level:
+  bloom_min: understand
+  bloom_target: apply
+  difficulty: foundational
+audience_prior_knowledge:
+  biology: low
+  physics: low
+  computer_science: high
+skill_overlap:
+  likely_known_by:
+    - computer_science
+  likely_new_for:
+    - biology
+    - physics
+delivery:
+  format_options:
+    - lecture
+    - guided-exercise
+  assessment:
+    - quiz
+    - practical-checkpoint
+dependencies:
+  enables:
+    - TOP-ml-segmentation-overview
+    - TOP-domain-case-study-cell-biology
+tags:
+  - automation
+  - scripting
+  - reproducibility
+  - bridge-for-biology
+  - bridge-for-physics
+references:
+  -
+    type: publication
+    citation: Journal of Microscopy competency framework (2025).
+    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+  -
+    type: training-module
+    citation: NEUBIAS Training Resources.
+    url: "https://neubias.github.io/training-resources/"
+status:
+  maturity: draft
+  owner: curriculum-team
+  last_updated: 2026-09-01

@@ -1,0 +1,38 @@
+id: PATH-bia-for-computer-scientists
+name: BIA for Computer Scientists
+target_audience: computer_science
+summary: Method-focused route with bridges in microscopy physics and experimental design.
+constraints:
+  total_minutes: 1530
+  format: blended
+topics_ordered:
+  - TOP-intro-bioimage-analysis
+  - TOP-microscopy-modalities-overview
+  - TOP-basic-wave-optics
+  - TOP-pixel-size-and-sampling
+  - TOP-psf-and-resolution
+  - TOP-noise-models
+  - TOP-imaging-artifacts-and-bias
+  - TOP-bioimage-file-formats-and-metadata
+  - TOP-ome-data-model-and-standards
+  - TOP-data-management-and-quality-control
+  - TOP-background-correction-and-flat-fielding
+  - TOP-denoising-classical-methods
+  - TOP-image-registration-basics
+  - TOP-classical-segmentation-methods
+  - TOP-ml-segmentation-overview
+  - TOP-segmentation-quality-metrics
+  - TOP-feature-extraction-morphology-intensity-texture
+  - TOP-statistical-testing-and-effect-sizes
+  - TOP-experimental-design-controls-and-power
+  - TOP-domain-case-study-cell-biology
+optional_bridge_topics:
+  - TOP-basic-wave-optics
+  - TOP-microscopy-modalities-overview
+  - TOP-experimental-design-controls-and-power
+outcomes:
+  - Implement acquisition-aware and biologically valid analysis pipelines.
+status:
+  maturity: draft
+  owner: curriculum-team
+  last_updated: 2026-09-01

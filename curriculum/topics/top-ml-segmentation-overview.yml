@@ -1,0 +1,59 @@
+id: TOP-ml-segmentation-overview
+title: ML-based Segmentation Overview
+subject_id: SUBJ-machine-learning-bia
+summary: Practical overview of supervised deep-learning segmentation workflows and caveats.
+learning_outcomes:
+  - Describe training/validation/testing splits for segmentation models.
+  - Recognize data bias and domain-shift risks in biological imaging.
+prerequisites:
+  required:
+    - TOP-classical-segmentation-methods
+  recommended:
+    - TOP-workflows-scripting-and-reproducibility
+estimated_time:
+  lecture_minutes: 45
+  practical_minutes: 60
+  self_study_minutes: 60
+  total_minutes: 165
+level:
+  bloom_min: understand
+  bloom_target: apply
+  difficulty: foundational
+audience_prior_knowledge:
+  biology: low
+  physics: low
+  computer_science: medium
+skill_overlap:
+  likely_known_by:
+    - computer_science
+  likely_new_for:
+    - biology
+    - physics
+delivery:
+  format_options:
+    - lecture
+    - guided-exercise
+  assessment:
+    - quiz
+    - practical-checkpoint
+dependencies:
+  enables:
+    - TOP-segmentation-quality-metrics
+    - TOP-domain-case-study-cell-biology
+tags:
+  - machine-learning
+  - segmentation
+  - validation
+references:
+  -
+    type: publication
+    citation: Journal of Microscopy competency framework (2025).
+    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+  -
+    type: training-module
+    citation: NEUBIAS Training Resources.
+    url: "https://neubias.github.io/training-resources/"
+status:
+  maturity: draft
+  owner: curriculum-team
+  last_updated: 2026-09-01

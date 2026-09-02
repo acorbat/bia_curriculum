@@ -1,0 +1,58 @@
+id: TOP-thresholding-and-binarization
+title: Thresholding and Binarization
+subject_id: SUBJ-segmentation-detection
+summary: Global and local thresholding approaches as entry-level segmentation tools.
+learning_outcomes:
+  - Apply global and adaptive thresholding appropriately.
+  - Diagnose under- and over-segmentation from threshold choices.
+prerequisites:
+  required:
+    - TOP-background-correction-and-flat-fielding
+  recommended:
+    - TOP-denoising-classical-methods
+estimated_time:
+  lecture_minutes: 35
+  practical_minutes: 45
+  self_study_minutes: 35
+  total_minutes: 115
+level:
+  bloom_min: understand
+  bloom_target: apply
+  difficulty: foundational
+audience_prior_knowledge:
+  biology: low
+  physics: low
+  computer_science: low
+skill_overlap:
+  likely_known_by:
+    - computer_science
+  likely_new_for:
+    - biology
+    - physics
+delivery:
+  format_options:
+    - lecture
+    - guided-exercise
+  assessment:
+    - quiz
+    - practical-checkpoint
+dependencies:
+  enables:
+    - TOP-classical-segmentation-methods
+    - TOP-segmentation-quality-metrics
+tags:
+  - segmentation
+  - thresholding
+references:
+  -
+    type: publication
+    citation: Journal of Microscopy competency framework (2025).
+    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+  -
+    type: training-module
+    citation: NEUBIAS Training Resources.
+    url: "https://neubias.github.io/training-resources/"
+status:
+  maturity: draft
+  owner: curriculum-team
+  last_updated: 2026-09-01

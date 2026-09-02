@@ -1,0 +1,59 @@
+id: TOP-classical-segmentation-methods
+title: Classical Segmentation Methods
+subject_id: SUBJ-segmentation-detection
+summary: Watershed, region growing, edge-based and morphology-based segmentation methods.
+learning_outcomes:
+  - Select classical segmentation methods for common object types.
+  - Tune parameters while minimizing bias and manual overfitting.
+prerequisites:
+  required:
+    - TOP-thresholding-and-binarization
+  recommended:
+    - TOP-denoising-classical-methods
+    - TOP-deconvolution-basics
+estimated_time:
+  lecture_minutes: 45
+  practical_minutes: 60
+  self_study_minutes: 45
+  total_minutes: 150
+level:
+  bloom_min: understand
+  bloom_target: apply
+  difficulty: foundational
+audience_prior_knowledge:
+  biology: low
+  physics: low
+  computer_science: medium
+skill_overlap:
+  likely_known_by:
+    - computer_science
+  likely_new_for:
+    - biology
+    - physics
+delivery:
+  format_options:
+    - lecture
+    - guided-exercise
+  assessment:
+    - quiz
+    - practical-checkpoint
+dependencies:
+  enables:
+    - TOP-segmentation-quality-metrics
+    - TOP-feature-extraction-morphology-intensity-texture
+tags:
+  - segmentation
+  - classical-methods
+references:
+  -
+    type: publication
+    citation: Journal of Microscopy competency framework (2025).
+    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+  -
+    type: training-module
+    citation: NEUBIAS Training Resources.
+    url: "https://neubias.github.io/training-resources/"
+status:
+  maturity: draft
+  owner: curriculum-team
+  last_updated: 2026-09-01
