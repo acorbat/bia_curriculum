@@ -1,15 +1,16 @@
 id: TOP-denoising-classical-methods
-title: "Denoising: Classical Methods"
+title: 'Denoising: Classical Methods'
 subject_id: SUBJ-preprocessing
-summary: Gaussian, median, non-local means and related denoising methods with parameter trade-offs.
+summary: Gaussian, median, non-local means and related denoising methods with parameter
+  trade-offs.
 learning_outcomes:
-  - Choose denoising filters based on noise assumptions.
-  - Avoid oversmoothing structures of biological interest.
+- Choose denoising filters based on noise assumptions.
+- Avoid oversmoothing structures of biological interest.
 prerequisites:
   required:
-    - TOP-noise-models
+  - TOP-noise-models
   recommended:
-    - TOP-pixel-size-and-sampling
+  - TOP-pixel-size-and-sampling
 estimated_time:
   lecture_minutes: 40
   practical_minutes: 45
@@ -25,33 +26,27 @@ audience_prior_knowledge:
   computer_science: medium
 skill_overlap:
   likely_known_by:
-    - computer_science
-    - physics
+  - computer_science
+  - physics
   likely_new_for:
-    - biology
+  - biology
 delivery:
   format_options:
-    - lecture
-    - guided-exercise
+  - lecture
+  - guided-exercise
   assessment:
-    - quiz
-    - practical-checkpoint
-dependencies:
-  enables:
-    - TOP-thresholding-and-binarization
-    - TOP-classical-segmentation-methods
+  - quiz
+  - practical-checkpoint
 tags:
-  - preprocessing
-  - denoising
+- preprocessing
+- denoising
 references:
-  -
-    type: publication
-    citation: Journal of Microscopy competency framework (2025).
-    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
-  -
-    type: training-module
-    citation: NEUBIAS Training Resources.
-    url: "https://neubias.github.io/training-resources/"
+- type: publication
+  citation: Journal of Microscopy competency framework (2025).
+  url: https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133
+- type: training-module
+  citation: NEUBIAS Training Resources.
+  url: https://neubias.github.io/training-resources/
 status:
   maturity: draft
   owner: curriculum-team

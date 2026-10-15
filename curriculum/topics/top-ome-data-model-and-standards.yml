@@ -3,13 +3,12 @@ title: OME Data Model and Standards
 subject_id: SUBJ-image-data-formats
 summary: OME concepts and practical use for managing microscopy metadata consistently.
 learning_outcomes:
-  - Explain core entities in the OME data model.
-  - Use OME-compatible outputs in analysis workflows.
+- Explain core entities in the OME data model.
+- Use OME-compatible outputs in analysis workflows.
 prerequisites:
   required:
-    - TOP-bioimage-file-formats-and-metadata
-  recommended:
-    []
+  - TOP-bioimage-file-formats-and-metadata
+  recommended: []
 estimated_time:
   lecture_minutes: 30
   practical_minutes: 30
@@ -25,33 +24,28 @@ audience_prior_knowledge:
   computer_science: medium
 skill_overlap:
   likely_known_by:
-    - computer_science
+  - computer_science
   likely_new_for:
-    - biology
-    - physics
+  - biology
+  - physics
 delivery:
   format_options:
-    - lecture
-    - guided-exercise
+  - lecture
+  - guided-exercise
   assessment:
-    - quiz
-    - practical-checkpoint
-dependencies:
-  enables:
-    - TOP-workflows-scripting-and-reproducibility
+  - quiz
+  - practical-checkpoint
 tags:
-  - ome
-  - metadata
-  - standards
+- ome
+- metadata
+- standards
 references:
-  -
-    type: publication
-    citation: Journal of Microscopy competency framework (2025).
-    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
-  -
-    type: training-module
-    citation: NEUBIAS Training Resources.
-    url: "https://neubias.github.io/training-resources/"
+- type: publication
+  citation: Journal of Microscopy competency framework (2025).
+  url: https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133
+- type: training-module
+  citation: NEUBIAS Training Resources.
+  url: https://neubias.github.io/training-resources/
 status:
   maturity: draft
   owner: curriculum-team

@@ -3,13 +3,13 @@ title: Noise Models in Bioimaging
 subject_id: SUBJ-imaging-foundations
 summary: Photon, read, and background noise models and their impact on analysis.
 learning_outcomes:
-  - Differentiate key noise sources in microscopy data.
-  - Use noise characteristics to motivate preprocessing choices.
+- Differentiate key noise sources in microscopy data.
+- Use noise characteristics to motivate preprocessing choices.
 prerequisites:
   required:
-    - TOP-intro-bioimage-analysis
+  - TOP-intro-bioimage-analysis
   recommended:
-    - TOP-basic-wave-optics
+  - TOP-basic-wave-optics
 estimated_time:
   lecture_minutes: 40
   practical_minutes: 35
@@ -25,34 +25,28 @@ audience_prior_knowledge:
   computer_science: medium
 skill_overlap:
   likely_known_by:
-    - physics
-    - computer_science
+  - physics
+  - computer_science
   likely_new_for:
-    - biology
+  - biology
 delivery:
   format_options:
-    - lecture
-    - guided-exercise
+  - lecture
+  - guided-exercise
   assessment:
-    - quiz
-    - practical-checkpoint
-dependencies:
-  enables:
-    - TOP-denoising-classical-methods
-    - TOP-segmentation-quality-metrics
+  - quiz
+  - practical-checkpoint
 tags:
-  - noise
-  - foundations
-  - preprocessing
+- noise
+- foundations
+- preprocessing
 references:
-  -
-    type: publication
-    citation: Journal of Microscopy competency framework (2025).
-    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
-  -
-    type: training-module
-    citation: NEUBIAS Training Resources.
-    url: "https://neubias.github.io/training-resources/"
+- type: publication
+  citation: Journal of Microscopy competency framework (2025).
+  url: https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133
+- type: training-module
+  citation: NEUBIAS Training Resources.
+  url: https://neubias.github.io/training-resources/
 status:
   maturity: draft
   owner: curriculum-team

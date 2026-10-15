@@ -1,37 +1,31 @@
 id: SUBJ-image-data-formats
 name: Image Data & Formats
-summary: Standards and metadata practices for interoperable and reproducible bioimage analysis.
+summary: Standards and metadata practices for interoperable and reproducible bioimage
+  analysis.
 topics:
-  - TOP-bioimage-file-formats-and-metadata
-  - TOP-ome-data-model-and-standards
-  - TOP-data-management-and-quality-control
+- TOP-bioimage-file-formats-and-metadata
+- TOP-ome-data-model-and-standards
+- TOP-data-management-and-quality-control
 learning_goals:
-  - Read and validate imaging metadata.
-  - Adopt consistent data organization and QC checks.
+- Read and validate imaging metadata.
+- Adopt consistent data organization and QC checks.
 recommended_order:
-  - TOP-bioimage-file-formats-and-metadata
-  - TOP-ome-data-model-and-standards
-  - TOP-data-management-and-quality-control
-estimated_time:
-  total_lecture_minutes: 0
-  total_practical_minutes: 0
-  total_self_study_minutes: 0
-  total_minutes: 0
+- TOP-bioimage-file-formats-and-metadata
+- TOP-ome-data-model-and-standards
+- TOP-data-management-and-quality-control
 audience_fit:
   primary:
-    - biology
-    - physics
-    - computer_science
-  notes: ""
+  - biology
+  - physics
+  - computer_science
+  notes: ''
 references:
-  -
-    type: publication
-    citation: Journal of Microscopy competency framework (2025).
-    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
-  -
-    type: training-module
-    citation: NEUBIAS Training Resources.
-    url: "https://neubias.github.io/training-resources/"
+- type: publication
+  citation: Journal of Microscopy competency framework (2025).
+  url: https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133
+- type: training-module
+  citation: NEUBIAS Training Resources.
+  url: https://neubias.github.io/training-resources/
 status:
   maturity: draft
   owner: curriculum-team

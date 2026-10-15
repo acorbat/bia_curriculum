@@ -3,13 +3,12 @@ title: Basic Wave Optics for Microscopy
 subject_id: SUBJ-imaging-foundations
 summary: Wave optics concepts needed for understanding diffraction and resolution.
 learning_outcomes:
-  - Explain diffraction and numerical aperture in practical terms.
-  - Connect optical constraints to measurable image quality.
+- Explain diffraction and numerical aperture in practical terms.
+- Connect optical constraints to measurable image quality.
 prerequisites:
   required:
-    - TOP-intro-bioimage-analysis
-  recommended:
-    []
+  - TOP-intro-bioimage-analysis
+  recommended: []
 estimated_time:
   lecture_minutes: 45
   practical_minutes: 30
@@ -25,34 +24,29 @@ audience_prior_knowledge:
   computer_science: low
 skill_overlap:
   likely_known_by:
-    - physics
+  - physics
   likely_new_for:
-    - biology
-    - computer_science
+  - biology
+  - computer_science
 delivery:
   format_options:
-    - lecture
-    - guided-exercise
+  - lecture
+  - guided-exercise
   assessment:
-    - quiz
-    - practical-checkpoint
-dependencies:
-  enables:
-    - TOP-psf-and-resolution
+  - quiz
+  - practical-checkpoint
 tags:
-  - optics
-  - foundations
-  - bridge-for-biology
-  - bridge-for-computer-science
+- optics
+- foundations
+- bridge-for-biology
+- bridge-for-computer-science
 references:
-  -
-    type: publication
-    citation: Journal of Microscopy competency framework (2025).
-    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
-  -
-    type: training-module
-    citation: NEUBIAS Training Resources.
-    url: "https://neubias.github.io/training-resources/"
+- type: publication
+  citation: Journal of Microscopy competency framework (2025).
+  url: https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133
+- type: training-module
+  citation: NEUBIAS Training Resources.
+  url: https://neubias.github.io/training-resources/
 status:
   maturity: draft
   owner: curriculum-team

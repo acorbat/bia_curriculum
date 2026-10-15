@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Explore bioimage analysis topics, prerequisites, and recommended learning paths." />
+    <title>Bioimage Analysis Curriculum Explorer</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/cytoscape@3.31.0/dist/cytoscape.min.js" defer></script>
+    <script src="./app.js" defer></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="brand-mark" aria-hidden="true">BIA</div>
+      <div class="brand-copy">
+        <p class="eyebrow">Open learning map</p>
+        <h1>Bioimage Analysis Curriculum</h1>
+        <p class="subtitle">Explore topics, prerequisites, and recommended routes through the curriculum.</p>
+      </div>
+      <a class="source-link" href="https://github.com/acorbat/bia_curriculum" target="_blank" rel="noreferrer">View project <span aria-hidden="true">↗</span></a>
+    </header>
+
+    <main class="app-shell">
+      <aside class="left-panel panel" aria-label="Curriculum filters and learning paths">
+        <section class="control-section">
+          <div class="section-heading">
+            <div><p class="eyebrow">Explore</p><h2>Filter topics</h2></div>
+            <button id="reset-filters" class="text-button" type="button">Reset</button>
+          </div>
+          <label class="field-label" for="search-topics">Search</label>
+          <input id="search-topics" class="control" type="search" placeholder="Topic, skill, or keyword" autocomplete="off" />
+
+          <label class="field-label" for="subject-filter">Subject</label>
+          <select id="subject-filter" class="control"><option value="all">All subjects</option></select>
+
+          <label class="field-label" for="background-filter">Likely new to</label>
+          <select id="background-filter" class="control">
+            <option value="all">All backgrounds</option>
+            <option value="biology">Biology</option>
+            <option value="physics">Physics</option>
+            <option value="computer_science">Computer science</option>
+          </select>
+          <p class="field-hint">Filters for topics marked as new for that background.</p>
+
+          <label class="field-label" for="level-filter">Difficulty</label>
+          <select id="level-filter" class="control">
+            <option value="all">All levels</option>
+            <option value="foundational">Foundational</option>
+            <option value="intermediate">Intermediate</option>
+            <option value="advanced">Advanced</option>
+          </select>
+          <label class="check-row"><input id="show-recommended" type="checkbox" checked /> <span>Show recommended prerequisites</span></label>
+        </section>
+
+        <section class="control-section paths-section">
+          <div class="section-heading"><div><p class="eyebrow">Curated routes</p><h2>Learning paths</h2></div></div>
+          <label class="field-label" for="path-select">Choose a path</label>
+          <select id="path-select" class="control"><option value="all">All topics</option></select>
+          <div id="path-summary" class="path-summary" aria-live="polite">Select a route to highlight its sequence in the map.</div>
+          <button id="copy-path-link" class="share-button" type="button" hidden>Copy shareable path link</button>
+          <div id="path-topic-list" class="path-topic-list" aria-label="Selected path topic sequence"></div>
+        </section>
+
+        <section class="legend-section">
+          <h2>Subjects</h2>
+          <div id="subject-legend" class="subject-legend"></div>
+          <div class="edge-legend">
+            <span><i class="edge-swatch required"></i> Required prerequisite</span>
+            <span><i class="edge-swatch recommended"></i> Recommended prerequisite</span>
+          </div>
+        </section>
+      </aside>
+
+      <section class="map-panel panel" aria-label="Interactive curriculum dependency map">
+        <div class="map-toolbar">
+          <div><p class="eyebrow">Curriculum map</p><h2>Topics &amp; dependencies</h2></div>
+          <div class="map-actions">
+            <span id="topic-count" class="count-pill">Loading…</span>
+            <button id="fit-map" class="icon-button" type="button" title="Fit map to view" aria-label="Fit map to view">Fit</button>
+          </div>
+        </div>
+        <p class="map-instructions">Select a topic for details. Arrows point from prerequisites to topics that build on them.</p>
+        <div id="graph" class="graph" role="img" aria-label="Interactive graph of curriculum topics and prerequisite relationships">
+          <div id="graph-tooltip" class="graph-tooltip" role="status" hidden></div>
+          <div id="graph-loading" class="graph-message">Loading curriculum data…</div>
+        </div>
+        <div class="map-footer"><span>Scroll to zoom · drag to pan · select a node for details</span><span id="data-status"></span></div>
+      </section>
+
+      <aside id="detail-panel" class="detail-panel panel" aria-label="Selected topic details" aria-live="polite">
+        <div class="empty-detail">
+          <div class="detail-icon" aria-hidden="true">✳</div>
+          <p class="eyebrow">Topic details</p>
+          <h2>Choose a topic</h2>
+          <p>Select a node in the map or a topic in a learning path to see its outcomes, time estimate, prerequisites, and references.</p>
+        </div>
+      </aside>
+    </main>
+    <footer class="site-footer"><span>Curriculum data is authored in YAML and generated for this explorer.</span><a href="https://neubias.github.io/training-resources/" target="_blank" rel="noreferrer">NEUBIAS training resources ↗</a></footer>
+  </body>
+</html>

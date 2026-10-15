@@ -3,14 +3,14 @@ title: Segmentation Quality Metrics
 subject_id: SUBJ-segmentation-detection
 summary: Metric-based evaluation of segmentation outputs and annotation agreement.
 learning_outcomes:
-  - Compute overlap and boundary-based quality metrics.
-  - Interpret metric values in context of downstream biological decisions.
+- Compute overlap and boundary-based quality metrics.
+- Interpret metric values in context of downstream biological decisions.
 prerequisites:
   required:
-    - TOP-classical-segmentation-methods
+  - TOP-classical-segmentation-methods
   recommended:
-    - TOP-ml-segmentation-overview
-    - TOP-statistical-testing-and-effect-sizes
+  - TOP-ml-segmentation-overview
+  - TOP-statistical-testing-and-effect-sizes
 estimated_time:
   lecture_minutes: 35
   practical_minutes: 45
@@ -26,34 +26,28 @@ audience_prior_knowledge:
   computer_science: medium
 skill_overlap:
   likely_known_by:
-    - computer_science
+  - computer_science
   likely_new_for:
-    - biology
-    - physics
+  - biology
+  - physics
 delivery:
   format_options:
-    - lecture
-    - guided-exercise
+  - lecture
+  - guided-exercise
   assessment:
-    - quiz
-    - practical-checkpoint
-dependencies:
-  enables:
-    - TOP-feature-extraction-morphology-intensity-texture
-    - TOP-domain-case-study-cell-biology
+  - quiz
+  - practical-checkpoint
 tags:
-  - segmentation
-  - metrics
-  - validation
+- segmentation
+- metrics
+- validation
 references:
-  -
-    type: publication
-    citation: Journal of Microscopy competency framework (2025).
-    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
-  -
-    type: training-module
-    citation: NEUBIAS Training Resources.
-    url: "https://neubias.github.io/training-resources/"
+- type: publication
+  citation: Journal of Microscopy competency framework (2025).
+  url: https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133
+- type: training-module
+  citation: NEUBIAS Training Resources.
+  url: https://neubias.github.io/training-resources/
 status:
   maturity: draft
   owner: curriculum-team

@@ -3,13 +3,13 @@ title: Thresholding and Binarization
 subject_id: SUBJ-segmentation-detection
 summary: Global and local thresholding approaches as entry-level segmentation tools.
 learning_outcomes:
-  - Apply global and adaptive thresholding appropriately.
-  - Diagnose under- and over-segmentation from threshold choices.
+- Apply global and adaptive thresholding appropriately.
+- Diagnose under- and over-segmentation from threshold choices.
 prerequisites:
   required:
-    - TOP-background-correction-and-flat-fielding
+  - TOP-background-correction-and-flat-fielding
   recommended:
-    - TOP-denoising-classical-methods
+  - TOP-denoising-classical-methods
 estimated_time:
   lecture_minutes: 35
   practical_minutes: 45
@@ -25,33 +25,27 @@ audience_prior_knowledge:
   computer_science: low
 skill_overlap:
   likely_known_by:
-    - computer_science
+  - computer_science
   likely_new_for:
-    - biology
-    - physics
+  - biology
+  - physics
 delivery:
   format_options:
-    - lecture
-    - guided-exercise
+  - lecture
+  - guided-exercise
   assessment:
-    - quiz
-    - practical-checkpoint
-dependencies:
-  enables:
-    - TOP-classical-segmentation-methods
-    - TOP-segmentation-quality-metrics
+  - quiz
+  - practical-checkpoint
 tags:
-  - segmentation
-  - thresholding
+- segmentation
+- thresholding
 references:
-  -
-    type: publication
-    citation: Journal of Microscopy competency framework (2025).
-    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
-  -
-    type: training-module
-    citation: NEUBIAS Training Resources.
-    url: "https://neubias.github.io/training-resources/"
+- type: publication
+  citation: Journal of Microscopy competency framework (2025).
+  url: https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133
+- type: training-module
+  citation: NEUBIAS Training Resources.
+  url: https://neubias.github.io/training-resources/
 status:
   maturity: draft
   owner: curriculum-team

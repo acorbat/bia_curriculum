@@ -1,15 +1,15 @@
 id: TOP-statistical-testing-and-effect-sizes
 title: Statistical Testing and Effect Sizes
 subject_id: SUBJ-statistics-experimental-design
-summary: Statistical testing, confidence intervals, and effect size reporting for image-derived data.
+summary: Statistical testing, confidence intervals, and effect size reporting for
+  image-derived data.
 learning_outcomes:
-  - Select statistical tests based on assumptions and design.
-  - Report effect sizes and uncertainty alongside p-values.
+- Select statistical tests based on assumptions and design.
+- Report effect sizes and uncertainty alongside p-values.
 prerequisites:
   required:
-    - TOP-feature-extraction-morphology-intensity-texture
-  recommended:
-    []
+  - TOP-feature-extraction-morphology-intensity-texture
+  recommended: []
 estimated_time:
   lecture_minutes: 45
   practical_minutes: 45
@@ -25,34 +25,28 @@ audience_prior_knowledge:
   computer_science: medium
 skill_overlap:
   likely_known_by:
-    - physics
+  - physics
   likely_new_for:
-    - biology
+  - biology
 delivery:
   format_options:
-    - lecture
-    - guided-exercise
+  - lecture
+  - guided-exercise
   assessment:
-    - quiz
-    - practical-checkpoint
-dependencies:
-  enables:
-    - TOP-experimental-design-controls-and-power
-    - TOP-domain-case-study-cell-biology
+  - quiz
+  - practical-checkpoint
 tags:
-  - statistics
-  - inference
-  - effect-size
-  - bridge-for-biology
+- statistics
+- inference
+- effect-size
+- bridge-for-biology
 references:
-  -
-    type: publication
-    citation: Journal of Microscopy competency framework (2025).
-    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
-  -
-    type: training-module
-    citation: NEUBIAS Training Resources.
-    url: "https://neubias.github.io/training-resources/"
+- type: publication
+  citation: Journal of Microscopy competency framework (2025).
+  url: https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133
+- type: training-module
+  citation: NEUBIAS Training Resources.
+  url: https://neubias.github.io/training-resources/
 status:
   maturity: draft
   owner: curriculum-team

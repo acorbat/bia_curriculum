@@ -1,32 +1,26 @@
 id: SUBJ-automation-reproducibility
 name: Automation, Scripting, and Reproducibility
-summary: Workflow automation and reporting practices for transparent and repeatable analyses.
+summary: Workflow automation and reporting practices for transparent and repeatable
+  analyses.
 topics:
-  - TOP-workflows-scripting-and-reproducibility
+- TOP-workflows-scripting-and-reproducibility
 learning_goals:
-  - Package analyses into reproducible, shareable workflows.
+- Package analyses into reproducible, shareable workflows.
 recommended_order:
-  - TOP-workflows-scripting-and-reproducibility
-estimated_time:
-  total_lecture_minutes: 0
-  total_practical_minutes: 0
-  total_self_study_minutes: 0
-  total_minutes: 0
+- TOP-workflows-scripting-and-reproducibility
 audience_fit:
   primary:
-    - biology
-    - physics
-    - computer_science
-  notes: ""
+  - biology
+  - physics
+  - computer_science
+  notes: ''
 references:
-  -
-    type: publication
-    citation: Journal of Microscopy competency framework (2025).
-    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
-  -
-    type: training-module
-    citation: NEUBIAS Training Resources.
-    url: "https://neubias.github.io/training-resources/"
+- type: publication
+  citation: Journal of Microscopy competency framework (2025).
+  url: https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133
+- type: training-module
+  citation: NEUBIAS Training Resources.
+  url: https://neubias.github.io/training-resources/
 status:
   maturity: draft
   owner: curriculum-team

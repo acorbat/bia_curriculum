@@ -1,33 +1,36 @@
 id: PATH-bia-for-physicists
 name: BIA for Physicists
 target_audience: physics
-summary: Builds on strong quantitative background and emphasizes biological assay context and interpretation.
+summary: Builds on strong quantitative background and emphasizes biological assay
+  context and interpretation.
 constraints:
-  total_minutes: 1470
+  total_minutes: 2450
   format: blended
 topics_ordered:
-  - TOP-intro-bioimage-analysis
-  - TOP-microscopy-modalities-overview
-  - TOP-bioimage-file-formats-and-metadata
-  - TOP-ome-data-model-and-standards
-  - TOP-data-management-and-quality-control
-  - TOP-noise-models
-  - TOP-imaging-artifacts-and-bias
-  - TOP-background-correction-and-flat-fielding
-  - TOP-denoising-classical-methods
-  - TOP-image-registration-basics
-  - TOP-thresholding-and-binarization
-  - TOP-classical-segmentation-methods
-  - TOP-segmentation-quality-metrics
-  - TOP-feature-extraction-morphology-intensity-texture
-  - TOP-experimental-design-controls-and-power
-  - TOP-workflows-scripting-and-reproducibility
-  - TOP-domain-case-study-cell-biology
+- TOP-intro-bioimage-analysis
+- TOP-microscopy-modalities-overview
+- TOP-bioimage-file-formats-and-metadata
+- TOP-ome-data-model-and-standards
+- TOP-data-management-and-quality-control
+- TOP-noise-models
+- TOP-imaging-artifacts-and-bias
+- TOP-background-correction-and-flat-fielding
+- TOP-denoising-classical-methods
+- TOP-basic-wave-optics
+- TOP-pixel-size-and-sampling
+- TOP-image-registration-basics
+- TOP-thresholding-and-binarization
+- TOP-classical-segmentation-methods
+- TOP-segmentation-quality-metrics
+- TOP-feature-extraction-morphology-intensity-texture
+- TOP-statistical-testing-and-effect-sizes
+- TOP-experimental-design-controls-and-power
+- TOP-workflows-scripting-and-reproducibility
+- TOP-domain-case-study-cell-biology
 optional_bridge_topics:
-  - TOP-experimental-design-controls-and-power
-  - TOP-domain-case-study-cell-biology
+- TOP-experimental-design-controls-and-power
 outcomes:
-  - Translate quantitative imaging expertise into biologically grounded analysis decisions.
+- Translate quantitative imaging expertise into biologically grounded analysis decisions.
 status:
   maturity: draft
   owner: curriculum-team

@@ -4,15 +4,14 @@ target_audience: biology   # biology | physics | computer_science | mixed
 summary: <1-3 sentence summary>
 
 constraints:
-  total_minutes: 0
-  format: blended          # workshop | semester | blended
+  total_minutes: 0           # Sum of topic estimated_time.total_minutes for topics_ordered
+  format: blended            # workshop | semester | blended
 
 topics_ordered:
-  - TOP-<topic-id-1>
+  - TOP-<topic-id-1>         # Include required prerequisites before dependent topics
   - TOP-<topic-id-2>
 
-optional_bridge_topics:
-  - TOP-<bridge-topic-id>
+optional_bridge_topics: []  # Must also be included in topics_ordered; highlighted in the explorer
 
 outcomes:
   - <Outcome 1>

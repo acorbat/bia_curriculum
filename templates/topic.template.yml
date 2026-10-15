@@ -39,8 +39,7 @@ delivery:
   assessment:
     - quiz
 
-dependencies:
-  enables: []
+# Outgoing dependency links are derived from other topics' prerequisites.
 
 tags: []
 

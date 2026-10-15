@@ -3,13 +3,13 @@ title: Pixel Size and Sampling
 subject_id: SUBJ-imaging-foundations
 summary: Sampling theory basics (Nyquist, aliasing) for microscopy images.
 learning_outcomes:
-  - Compute whether sampling is adequate for a target resolution.
-  - Identify undersampling and oversampling trade-offs.
+- Compute whether sampling is adequate for a target resolution.
+- Identify undersampling and oversampling trade-offs.
 prerequisites:
   required:
-    - TOP-basic-wave-optics
+  - TOP-basic-wave-optics
   recommended:
-    - TOP-microscopy-modalities-overview
+  - TOP-microscopy-modalities-overview
 estimated_time:
   lecture_minutes: 40
   practical_minutes: 30
@@ -25,35 +25,29 @@ audience_prior_knowledge:
   computer_science: medium
 skill_overlap:
   likely_known_by:
-    - physics
-    - computer_science
+  - physics
+  - computer_science
   likely_new_for:
-    - biology
+  - biology
 delivery:
   format_options:
-    - lecture
-    - guided-exercise
+  - lecture
+  - guided-exercise
   assessment:
-    - quiz
-    - practical-checkpoint
-dependencies:
-  enables:
-    - TOP-psf-and-resolution
-    - TOP-deconvolution-basics
+  - quiz
+  - practical-checkpoint
 tags:
-  - sampling
-  - resolution
-  - foundations
-  - bridge-for-biology
+- sampling
+- resolution
+- foundations
+- bridge-for-biology
 references:
-  -
-    type: publication
-    citation: Journal of Microscopy competency framework (2025).
-    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
-  -
-    type: training-module
-    citation: NEUBIAS Training Resources.
-    url: "https://neubias.github.io/training-resources/"
+- type: publication
+  citation: Journal of Microscopy competency framework (2025).
+  url: https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133
+- type: training-module
+  citation: NEUBIAS Training Resources.
+  url: https://neubias.github.io/training-resources/
 status:
   maturity: draft
   owner: curriculum-team

@@ -38,10 +38,17 @@ This work can be aligned with:
 - `curriculum/graphs/` — machine-readable dependency graph exports.
 - `references/` — bibliography and source mappings to external resources.
 - `templates/` — templates for new subject/topic files.
+- `scripts/` — curriculum validation and YAML-to-JSON generation.
+- `web/` — static interactive explorer deployed through GitHub Pages.
 
 ### 3) Data format conventions
-- Prefer **YAML** for human-editable topic metadata.
+- Prefer **YAML** for human-editable curriculum metadata.
 - Prefer **CSV/TSV** only for simple tabular exports.
+- `curriculum/topics/*.yml` is canonical for topic data and prerequisite relationships.
+- Outgoing dependency links are derived from prerequisite lists; do not duplicate them on topics.
+- Subject membership is canonical on each topic's `subject_id`; subject topic lists must match it.
+- `curriculum/graphs/topic-dependencies.yml` and `web/data/curriculum.json` are generated outputs; do not hand-edit them.
+- Run `python scripts/build_curriculum.py` after editing curriculum YAML. Use `--check` for validation without generating files.
 - Use stable IDs for all entities:
   - Subject ID: `SUBJ-<slug>`
   - Topic ID: `TOP-<slug>`
@@ -60,6 +67,17 @@ For every topic, keep references to:
 - Canonical external resources.
 - Original inspiration module(s).
 - Notes on adaptation for this curriculum.
+
+### 6) Learning path integrity
+- Include all required prerequisites in `topics_ordered` and place them before dependent topics.
+- `optional_bridge_topics` must be part of the path sequence and are highlighted in the explorer.
+- Keep `constraints.total_minutes` synchronized with the sum of selected topic time estimates.
+- Validate path IDs, topic IDs, prerequisite order, and cycles with `python scripts/build_curriculum.py`.
+
+### 7) Interactive explorer
+- The browser app is a static site in `web/`; it uses the generated `web/data/curriculum.json`.
+- Preview locally with `python -m http.server 8000 --directory web` after generating the data.
+- GitHub Actions validates and deploys the site to GitHub Pages. Configure repository Pages source as **GitHub Actions**.
 
 ---
 
@@ -121,10 +139,7 @@ delivery:
     - quiz
     - concept-check
 
-dependencies:
-  enables:
-    - TOP-deconvolution-basics
-    - TOP-segmentation-quality-metrics
+# Outgoing dependency links are derived from other topics' prerequisites.
 
 tags:
   - microscopy
@@ -152,12 +167,11 @@ status:
 - Store `prerequisites.required` and `prerequisites.recommended` in each topic.
 - Easy for humans, enough for manual planning.
 
-#### Option 2 — Explicit graph file (scalable)
-- Maintain a separate graph file (`curriculum/graphs/topic-dependencies.yml`) with edges:
-  - `from: TOP-a`
-  - `to: TOP-b`
-  - `type: required | recommended`
-- Better for visualization and automated schedule generation.
+#### Option 2 — Explicit graph export (used by this project)
+- Generate `curriculum/graphs/topic-dependencies.yml` from each topic's `prerequisites` fields.
+- Edges contain `from`, `to`, and `type: required | recommended`.
+- Do not edit the graph export manually; run `python scripts/build_curriculum.py` to regenerate it and the web data.
+- The generated graph supports visualization and automated schedule checks.
 
 #### Option 3 — Weighted dependency graph (advanced)
 - Add edge weights (`strength: 1..5`) and competency dimensions.

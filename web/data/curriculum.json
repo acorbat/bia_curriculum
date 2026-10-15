@@ -1,0 +1,2754 @@
+{
+  "schema_version": 1,
+  "subjects": {
+    "SUBJ-automation-reproducibility": {
+      "id": "SUBJ-automation-reproducibility",
+      "name": "Automation, Scripting, and Reproducibility",
+      "summary": "Workflow automation and reporting practices for transparent and repeatable analyses.",
+      "topics": [
+        "TOP-workflows-scripting-and-reproducibility"
+      ],
+      "learning_goals": [
+        "Package analyses into reproducible, shareable workflows."
+      ],
+      "recommended_order": [
+        "TOP-workflows-scripting-and-reproducibility"
+      ],
+      "audience_fit": {
+        "primary": [
+          "biology",
+          "physics",
+          "computer_science"
+        ],
+        "notes": ""
+      },
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "estimated_time": {
+        "total_lecture_minutes": 40,
+        "total_practical_minutes": 60,
+        "total_self_study_minutes": 60,
+        "total_minutes": 160
+      }
+    },
+    "SUBJ-domain-applications": {
+      "id": "SUBJ-domain-applications",
+      "name": "Domain Applications",
+      "summary": "Applied case studies connecting method choices to biological interpretation.",
+      "topics": [
+        "TOP-domain-case-study-cell-biology"
+      ],
+      "learning_goals": [
+        "Integrate end-to-end workflow decisions in realistic biological studies."
+      ],
+      "recommended_order": [
+        "TOP-domain-case-study-cell-biology"
+      ],
+      "audience_fit": {
+        "primary": [
+          "biology",
+          "physics",
+          "computer_science"
+        ],
+        "notes": ""
+      },
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "estimated_time": {
+        "total_lecture_minutes": 30,
+        "total_practical_minutes": 90,
+        "total_self_study_minutes": 60,
+        "total_minutes": 180
+      }
+    },
+    "SUBJ-feature-extraction-quantification": {
+      "id": "SUBJ-feature-extraction-quantification",
+      "name": "Feature Extraction & Quantification",
+      "summary": "Translation of segmented objects into measurable biological descriptors.",
+      "topics": [
+        "TOP-feature-extraction-morphology-intensity-texture"
+      ],
+      "learning_goals": [
+        "Extract robust features and understand feature sensitivity."
+      ],
+      "recommended_order": [
+        "TOP-feature-extraction-morphology-intensity-texture"
+      ],
+      "audience_fit": {
+        "primary": [
+          "biology",
+          "physics",
+          "computer_science"
+        ],
+        "notes": ""
+      },
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "estimated_time": {
+        "total_lecture_minutes": 45,
+        "total_practical_minutes": 60,
+        "total_self_study_minutes": 50,
+        "total_minutes": 155
+      }
+    },
+    "SUBJ-image-data-formats": {
+      "id": "SUBJ-image-data-formats",
+      "name": "Image Data & Formats",
+      "summary": "Standards and metadata practices for interoperable and reproducible bioimage analysis.",
+      "topics": [
+        "TOP-bioimage-file-formats-and-metadata",
+        "TOP-ome-data-model-and-standards",
+        "TOP-data-management-and-quality-control"
+      ],
+      "learning_goals": [
+        "Read and validate imaging metadata.",
+        "Adopt consistent data organization and QC checks."
+      ],
+      "recommended_order": [
+        "TOP-bioimage-file-formats-and-metadata",
+        "TOP-ome-data-model-and-standards",
+        "TOP-data-management-and-quality-control"
+      ],
+      "audience_fit": {
+        "primary": [
+          "biology",
+          "physics",
+          "computer_science"
+        ],
+        "notes": ""
+      },
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "estimated_time": {
+        "total_lecture_minutes": 95,
+        "total_practical_minutes": 85,
+        "total_self_study_minutes": 105,
+        "total_minutes": 285
+      }
+    },
+    "SUBJ-imaging-foundations": {
+      "id": "SUBJ-imaging-foundations",
+      "name": "Imaging Foundations",
+      "summary": "Microscopy and signal-formation concepts required to reason about image quality and downstream analysis.",
+      "topics": [
+        "TOP-intro-bioimage-analysis",
+        "TOP-microscopy-modalities-overview",
+        "TOP-basic-wave-optics",
+        "TOP-pixel-size-and-sampling",
+        "TOP-psf-and-resolution",
+        "TOP-noise-models",
+        "TOP-imaging-artifacts-and-bias"
+      ],
+      "learning_goals": [
+        "Connect imaging physics to analysis reliability.",
+        "Identify acquisition choices that affect quantitative outcomes."
+      ],
+      "recommended_order": [
+        "TOP-intro-bioimage-analysis",
+        "TOP-microscopy-modalities-overview",
+        "TOP-basic-wave-optics",
+        "TOP-pixel-size-and-sampling",
+        "TOP-psf-and-resolution",
+        "TOP-noise-models",
+        "TOP-imaging-artifacts-and-bias"
+      ],
+      "audience_fit": {
+        "primary": [
+          "biology",
+          "physics",
+          "computer_science"
+        ],
+        "notes": ""
+      },
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "estimated_time": {
+        "total_lecture_minutes": 280,
+        "total_practical_minutes": 205,
+        "total_self_study_minutes": 295,
+        "total_minutes": 780
+      }
+    },
+    "SUBJ-machine-learning-bia": {
+      "id": "SUBJ-machine-learning-bia",
+      "name": "Machine Learning in BIA",
+      "summary": "Foundational ML concepts and caveats specific to bioimage analysis tasks.",
+      "topics": [
+        "TOP-ml-segmentation-overview"
+      ],
+      "learning_goals": [
+        "Understand data needs, validation, and bias for ML segmentation."
+      ],
+      "recommended_order": [
+        "TOP-ml-segmentation-overview"
+      ],
+      "audience_fit": {
+        "primary": [
+          "biology",
+          "physics",
+          "computer_science"
+        ],
+        "notes": ""
+      },
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "estimated_time": {
+        "total_lecture_minutes": 45,
+        "total_practical_minutes": 60,
+        "total_self_study_minutes": 60,
+        "total_minutes": 165
+      }
+    },
+    "SUBJ-preprocessing": {
+      "id": "SUBJ-preprocessing",
+      "name": "Preprocessing",
+      "summary": "Core correction and enhancement steps before segmentation and quantification.",
+      "topics": [
+        "TOP-background-correction-and-flat-fielding",
+        "TOP-denoising-classical-methods",
+        "TOP-image-registration-basics",
+        "TOP-deconvolution-basics"
+      ],
+      "learning_goals": [
+        "Choose preprocessing methods matched to noise/artifacts.",
+        "Avoid overprocessing that biases measurements."
+      ],
+      "recommended_order": [
+        "TOP-background-correction-and-flat-fielding",
+        "TOP-denoising-classical-methods",
+        "TOP-image-registration-basics",
+        "TOP-deconvolution-basics"
+      ],
+      "audience_fit": {
+        "primary": [
+          "biology",
+          "physics",
+          "computer_science"
+        ],
+        "notes": ""
+      },
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "estimated_time": {
+        "total_lecture_minutes": 160,
+        "total_practical_minutes": 175,
+        "total_self_study_minutes": 185,
+        "total_minutes": 520
+      }
+    },
+    "SUBJ-segmentation-detection": {
+      "id": "SUBJ-segmentation-detection",
+      "name": "Segmentation & Object Detection",
+      "summary": "Classical and modern approaches to identify biological structures in images.",
+      "topics": [
+        "TOP-thresholding-and-binarization",
+        "TOP-classical-segmentation-methods",
+        "TOP-segmentation-quality-metrics"
+      ],
+      "learning_goals": [
+        "Compare segmentation methods and assumptions.",
+        "Evaluate segmentation quality with objective metrics."
+      ],
+      "recommended_order": [
+        "TOP-thresholding-and-binarization",
+        "TOP-classical-segmentation-methods",
+        "TOP-segmentation-quality-metrics"
+      ],
+      "audience_fit": {
+        "primary": [
+          "biology",
+          "physics",
+          "computer_science"
+        ],
+        "notes": ""
+      },
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "estimated_time": {
+        "total_lecture_minutes": 115,
+        "total_practical_minutes": 150,
+        "total_self_study_minutes": 120,
+        "total_minutes": 385
+      }
+    },
+    "SUBJ-statistics-experimental-design": {
+      "id": "SUBJ-statistics-experimental-design",
+      "name": "Statistics & Experimental Design",
+      "summary": "Statistical reasoning for reliable interpretation of image-derived measurements.",
+      "topics": [
+        "TOP-statistical-testing-and-effect-sizes",
+        "TOP-experimental-design-controls-and-power"
+      ],
+      "learning_goals": [
+        "Match statistical tools to experimental questions.",
+        "Design experiments with appropriate controls and sample size."
+      ],
+      "recommended_order": [
+        "TOP-statistical-testing-and-effect-sizes",
+        "TOP-experimental-design-controls-and-power"
+      ],
+      "audience_fit": {
+        "primary": [
+          "biology",
+          "physics",
+          "computer_science"
+        ],
+        "notes": ""
+      },
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "estimated_time": {
+        "total_lecture_minutes": 85,
+        "total_practical_minutes": 75,
+        "total_self_study_minutes": 110,
+        "total_minutes": 270
+      }
+    }
+  },
+  "topics": {
+    "TOP-background-correction-and-flat-fielding": {
+      "id": "TOP-background-correction-and-flat-fielding",
+      "title": "Background Correction and Flat-Fielding",
+      "subject_id": "SUBJ-preprocessing",
+      "summary": "Illumination and background correction methods for robust quantification.",
+      "learning_outcomes": [
+        "Select correction approaches for uneven illumination/background.",
+        "Assess correction side effects on biological signal."
+      ],
+      "prerequisites": {
+        "required": [
+          "TOP-imaging-artifacts-and-bias"
+        ],
+        "recommended": [
+          "TOP-noise-models"
+        ]
+      },
+      "estimated_time": {
+        "lecture_minutes": 35,
+        "practical_minutes": 40,
+        "self_study_minutes": 40,
+        "total_minutes": 115
+      },
+      "level": {
+        "bloom_min": "understand",
+        "bloom_target": "apply",
+        "difficulty": "foundational"
+      },
+      "audience_prior_knowledge": {
+        "biology": "low",
+        "physics": "medium",
+        "computer_science": "low"
+      },
+      "skill_overlap": {
+        "likely_known_by": [
+          "physics"
+        ],
+        "likely_new_for": [
+          "biology",
+          "computer_science"
+        ]
+      },
+      "delivery": {
+        "format_options": [
+          "lecture",
+          "guided-exercise"
+        ],
+        "assessment": [
+          "quiz",
+          "practical-checkpoint"
+        ]
+      },
+      "tags": [
+        "preprocessing",
+        "background",
+        "flat-field"
+      ],
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "dependencies": {
+        "enables": [
+          "TOP-thresholding-and-binarization"
+        ]
+      }
+    },
+    "TOP-basic-wave-optics": {
+      "id": "TOP-basic-wave-optics",
+      "title": "Basic Wave Optics for Microscopy",
+      "subject_id": "SUBJ-imaging-foundations",
+      "summary": "Wave optics concepts needed for understanding diffraction and resolution.",
+      "learning_outcomes": [
+        "Explain diffraction and numerical aperture in practical terms.",
+        "Connect optical constraints to measurable image quality."
+      ],
+      "prerequisites": {
+        "required": [
+          "TOP-intro-bioimage-analysis"
+        ],
+        "recommended": []
+      },
+      "estimated_time": {
+        "lecture_minutes": 45,
+        "practical_minutes": 30,
+        "self_study_minutes": 45,
+        "total_minutes": 120
+      },
+      "level": {
+        "bloom_min": "understand",
+        "bloom_target": "apply",
+        "difficulty": "foundational"
+      },
+      "audience_prior_knowledge": {
+        "biology": "low",
+        "physics": "high",
+        "computer_science": "low"
+      },
+      "skill_overlap": {
+        "likely_known_by": [
+          "physics"
+        ],
+        "likely_new_for": [
+          "biology",
+          "computer_science"
+        ]
+      },
+      "delivery": {
+        "format_options": [
+          "lecture",
+          "guided-exercise"
+        ],
+        "assessment": [
+          "quiz",
+          "practical-checkpoint"
+        ]
+      },
+      "tags": [
+        "optics",
+        "foundations",
+        "bridge-for-biology",
+        "bridge-for-computer-science"
+      ],
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "dependencies": {
+        "enables": [
+          "TOP-noise-models",
+          "TOP-pixel-size-and-sampling",
+          "TOP-psf-and-resolution"
+        ]
+      }
+    },
+    "TOP-bioimage-file-formats-and-metadata": {
+      "id": "TOP-bioimage-file-formats-and-metadata",
+      "title": "Bioimage File Formats and Metadata",
+      "subject_id": "SUBJ-image-data-formats",
+      "summary": "File format ecosystems and metadata essentials for reproducible BIA.",
+      "learning_outcomes": [
+        "Inspect metadata needed for quantitative analysis.",
+        "Recognize interoperability pitfalls across tools."
+      ],
+      "prerequisites": {
+        "required": [
+          "TOP-intro-bioimage-analysis"
+        ],
+        "recommended": []
+      },
+      "estimated_time": {
+        "lecture_minutes": 35,
+        "practical_minutes": 30,
+        "self_study_minutes": 30,
+        "total_minutes": 95
+      },
+      "level": {
+        "bloom_min": "understand",
+        "bloom_target": "apply",
+        "difficulty": "foundational"
+      },
+      "audience_prior_knowledge": {
+        "biology": "low",
+        "physics": "low",
+        "computer_science": "low"
+      },
+      "skill_overlap": {
+        "likely_known_by": [
+          "computer_science"
+        ],
+        "likely_new_for": [
+          "biology",
+          "physics"
+        ]
+      },
+      "delivery": {
+        "format_options": [
+          "lecture",
+          "guided-exercise"
+        ],
+        "assessment": [
+          "quiz",
+          "practical-checkpoint"
+        ]
+      },
+      "tags": [
+        "metadata",
+        "formats",
+        "reproducibility"
+      ],
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "dependencies": {
+        "enables": [
+          "TOP-data-management-and-quality-control",
+          "TOP-ome-data-model-and-standards"
+        ]
+      }
+    },
+    "TOP-classical-segmentation-methods": {
+      "id": "TOP-classical-segmentation-methods",
+      "title": "Classical Segmentation Methods",
+      "subject_id": "SUBJ-segmentation-detection",
+      "summary": "Watershed, region growing, edge-based and morphology-based segmentation methods.",
+      "learning_outcomes": [
+        "Select classical segmentation methods for common object types.",
+        "Tune parameters while minimizing bias and manual overfitting."
+      ],
+      "prerequisites": {
+        "required": [
+          "TOP-thresholding-and-binarization"
+        ],
+        "recommended": [
+          "TOP-denoising-classical-methods",
+          "TOP-deconvolution-basics"
+        ]
+      },
+      "estimated_time": {
+        "lecture_minutes": 45,
+        "practical_minutes": 60,
+        "self_study_minutes": 45,
+        "total_minutes": 150
+      },
+      "level": {
+        "bloom_min": "understand",
+        "bloom_target": "apply",
+        "difficulty": "foundational"
+      },
+      "audience_prior_knowledge": {
+        "biology": "low",
+        "physics": "low",
+        "computer_science": "medium"
+      },
+      "skill_overlap": {
+        "likely_known_by": [
+          "computer_science"
+        ],
+        "likely_new_for": [
+          "biology",
+          "physics"
+        ]
+      },
+      "delivery": {
+        "format_options": [
+          "lecture",
+          "guided-exercise"
+        ],
+        "assessment": [
+          "quiz",
+          "practical-checkpoint"
+        ]
+      },
+      "tags": [
+        "segmentation",
+        "classical-methods"
+      ],
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "dependencies": {
+        "enables": [
+          "TOP-feature-extraction-morphology-intensity-texture",
+          "TOP-ml-segmentation-overview",
+          "TOP-segmentation-quality-metrics"
+        ]
+      }
+    },
+    "TOP-data-management-and-quality-control": {
+      "id": "TOP-data-management-and-quality-control",
+      "title": "Data Management and Quality Control",
+      "subject_id": "SUBJ-image-data-formats",
+      "summary": "Dataset organization, naming, versioning, and QC checkpoints for BIA projects.",
+      "learning_outcomes": [
+        "Apply a consistent folder and metadata strategy.",
+        "Define QC checkpoints before and after preprocessing/segmentation."
+      ],
+      "prerequisites": {
+        "required": [
+          "TOP-bioimage-file-formats-and-metadata"
+        ],
+        "recommended": [
+          "TOP-imaging-artifacts-and-bias"
+        ]
+      },
+      "estimated_time": {
+        "lecture_minutes": 30,
+        "practical_minutes": 25,
+        "self_study_minutes": 35,
+        "total_minutes": 90
+      },
+      "level": {
+        "bloom_min": "understand",
+        "bloom_target": "apply",
+        "difficulty": "foundational"
+      },
+      "audience_prior_knowledge": {
+        "biology": "low",
+        "physics": "low",
+        "computer_science": "low"
+      },
+      "skill_overlap": {
+        "likely_known_by": [
+          "computer_science"
+        ],
+        "likely_new_for": [
+          "biology",
+          "physics"
+        ]
+      },
+      "delivery": {
+        "format_options": [
+          "lecture",
+          "guided-exercise"
+        ],
+        "assessment": [
+          "quiz",
+          "practical-checkpoint"
+        ]
+      },
+      "tags": [
+        "data-management",
+        "qc",
+        "reproducibility"
+      ],
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "dependencies": {
+        "enables": [
+          "TOP-experimental-design-controls-and-power",
+          "TOP-workflows-scripting-and-reproducibility"
+        ]
+      }
+    },
+    "TOP-deconvolution-basics": {
+      "id": "TOP-deconvolution-basics",
+      "title": "Deconvolution Basics",
+      "subject_id": "SUBJ-preprocessing",
+      "summary": "Conceptual and practical introduction to deconvolution in fluorescence microscopy.",
+      "learning_outcomes": [
+        "Explain when deconvolution can improve interpretability.",
+        "Recognize artifacts introduced by poor PSF assumptions."
+      ],
+      "prerequisites": {
+        "required": [
+          "TOP-psf-and-resolution",
+          "TOP-pixel-size-and-sampling"
+        ],
+        "recommended": [
+          "TOP-noise-models"
+        ]
+      },
+      "estimated_time": {
+        "lecture_minutes": 45,
+        "practical_minutes": 45,
+        "self_study_minutes": 60,
+        "total_minutes": 150
+      },
+      "level": {
+        "bloom_min": "understand",
+        "bloom_target": "apply",
+        "difficulty": "foundational"
+      },
+      "audience_prior_knowledge": {
+        "biology": "low",
+        "physics": "medium",
+        "computer_science": "medium"
+      },
+      "skill_overlap": {
+        "likely_known_by": [
+          "physics",
+          "computer_science"
+        ],
+        "likely_new_for": [
+          "biology"
+        ]
+      },
+      "delivery": {
+        "format_options": [
+          "lecture",
+          "guided-exercise"
+        ],
+        "assessment": [
+          "quiz",
+          "practical-checkpoint"
+        ]
+      },
+      "tags": [
+        "preprocessing",
+        "deconvolution"
+      ],
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "dependencies": {
+        "enables": [
+          "TOP-classical-segmentation-methods"
+        ]
+      }
+    },
+    "TOP-denoising-classical-methods": {
+      "id": "TOP-denoising-classical-methods",
+      "title": "Denoising: Classical Methods",
+      "subject_id": "SUBJ-preprocessing",
+      "summary": "Gaussian, median, non-local means and related denoising methods with parameter trade-offs.",
+      "learning_outcomes": [
+        "Choose denoising filters based on noise assumptions.",
+        "Avoid oversmoothing structures of biological interest."
+      ],
+      "prerequisites": {
+        "required": [
+          "TOP-noise-models"
+        ],
+        "recommended": [
+          "TOP-pixel-size-and-sampling"
+        ]
+      },
+      "estimated_time": {
+        "lecture_minutes": 40,
+        "practical_minutes": 45,
+        "self_study_minutes": 40,
+        "total_minutes": 125
+      },
+      "level": {
+        "bloom_min": "understand",
+        "bloom_target": "apply",
+        "difficulty": "foundational"
+      },
+      "audience_prior_knowledge": {
+        "biology": "low",
+        "physics": "medium",
+        "computer_science": "medium"
+      },
+      "skill_overlap": {
+        "likely_known_by": [
+          "computer_science",
+          "physics"
+        ],
+        "likely_new_for": [
+          "biology"
+        ]
+      },
+      "delivery": {
+        "format_options": [
+          "lecture",
+          "guided-exercise"
+        ],
+        "assessment": [
+          "quiz",
+          "practical-checkpoint"
+        ]
+      },
+      "tags": [
+        "preprocessing",
+        "denoising"
+      ],
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "dependencies": {
+        "enables": [
+          "TOP-classical-segmentation-methods",
+          "TOP-thresholding-and-binarization"
+        ]
+      }
+    },
+    "TOP-domain-case-study-cell-biology": {
+      "id": "TOP-domain-case-study-cell-biology",
+      "title": "Domain Case Study: Cell Biology Quantification",
+      "subject_id": "SUBJ-domain-applications",
+      "summary": "End-to-end cell biology case study integrating acquisition-aware processing and quantitative interpretation.",
+      "learning_outcomes": [
+        "Assemble an end-to-end BIA workflow for a realistic cell biology question.",
+        "Justify method choices and discuss uncertainty transparently."
+      ],
+      "prerequisites": {
+        "required": [
+          "TOP-feature-extraction-morphology-intensity-texture",
+          "TOP-experimental-design-controls-and-power"
+        ],
+        "recommended": [
+          "TOP-ml-segmentation-overview",
+          "TOP-workflows-scripting-and-reproducibility"
+        ]
+      },
+      "estimated_time": {
+        "lecture_minutes": 30,
+        "practical_minutes": 90,
+        "self_study_minutes": 60,
+        "total_minutes": 180
+      },
+      "level": {
+        "bloom_min": "understand",
+        "bloom_target": "apply",
+        "difficulty": "foundational"
+      },
+      "audience_prior_knowledge": {
+        "biology": "medium",
+        "physics": "low",
+        "computer_science": "low"
+      },
+      "skill_overlap": {
+        "likely_known_by": [
+          "biology"
+        ],
+        "likely_new_for": [
+          "physics",
+          "computer_science"
+        ]
+      },
+      "delivery": {
+        "format_options": [
+          "lecture",
+          "guided-exercise"
+        ],
+        "assessment": [
+          "quiz",
+          "practical-checkpoint"
+        ]
+      },
+      "tags": [
+        "application",
+        "case-study",
+        "cell-biology"
+      ],
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "dependencies": {
+        "enables": []
+      }
+    },
+    "TOP-experimental-design-controls-and-power": {
+      "id": "TOP-experimental-design-controls-and-power",
+      "title": "Experimental Design, Controls, and Power",
+      "subject_id": "SUBJ-statistics-experimental-design",
+      "summary": "Planning robust BIA experiments with controls, replication, and power considerations.",
+      "learning_outcomes": [
+        "Differentiate technical vs biological replication in imaging studies.",
+        "Plan control conditions and sample sizes for expected effect sizes."
+      ],
+      "prerequisites": {
+        "required": [
+          "TOP-statistical-testing-and-effect-sizes"
+        ],
+        "recommended": [
+          "TOP-data-management-and-quality-control"
+        ]
+      },
+      "estimated_time": {
+        "lecture_minutes": 40,
+        "practical_minutes": 30,
+        "self_study_minutes": 50,
+        "total_minutes": 120
+      },
+      "level": {
+        "bloom_min": "understand",
+        "bloom_target": "apply",
+        "difficulty": "foundational"
+      },
+      "audience_prior_knowledge": {
+        "biology": "medium",
+        "physics": "low",
+        "computer_science": "low"
+      },
+      "skill_overlap": {
+        "likely_known_by": [
+          "biology"
+        ],
+        "likely_new_for": [
+          "computer_science"
+        ]
+      },
+      "delivery": {
+        "format_options": [
+          "lecture",
+          "guided-exercise"
+        ],
+        "assessment": [
+          "quiz",
+          "practical-checkpoint"
+        ]
+      },
+      "tags": [
+        "experimental-design",
+        "controls",
+        "power"
+      ],
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "dependencies": {
+        "enables": [
+          "TOP-domain-case-study-cell-biology"
+        ]
+      }
+    },
+    "TOP-feature-extraction-morphology-intensity-texture": {
+      "id": "TOP-feature-extraction-morphology-intensity-texture",
+      "title": "Feature Extraction: Morphology, Intensity, Texture",
+      "subject_id": "SUBJ-feature-extraction-quantification",
+      "summary": "Derivation of interpretable quantitative features from segmented objects.",
+      "learning_outcomes": [
+        "Extract morphology, intensity, and texture features reproducibly.",
+        "Identify feature confounders linked to acquisition and preprocessing."
+      ],
+      "prerequisites": {
+        "required": [
+          "TOP-classical-segmentation-methods"
+        ],
+        "recommended": [
+          "TOP-image-registration-basics",
+          "TOP-segmentation-quality-metrics"
+        ]
+      },
+      "estimated_time": {
+        "lecture_minutes": 45,
+        "practical_minutes": 60,
+        "self_study_minutes": 50,
+        "total_minutes": 155
+      },
+      "level": {
+        "bloom_min": "understand",
+        "bloom_target": "apply",
+        "difficulty": "foundational"
+      },
+      "audience_prior_knowledge": {
+        "biology": "medium",
+        "physics": "low",
+        "computer_science": "medium"
+      },
+      "skill_overlap": {
+        "likely_known_by": [
+          "biology",
+          "computer_science"
+        ],
+        "likely_new_for": [
+          "physics"
+        ]
+      },
+      "delivery": {
+        "format_options": [
+          "lecture",
+          "guided-exercise"
+        ],
+        "assessment": [
+          "quiz",
+          "practical-checkpoint"
+        ]
+      },
+      "tags": [
+        "features",
+        "quantification",
+        "morphology",
+        "texture"
+      ],
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "dependencies": {
+        "enables": [
+          "TOP-domain-case-study-cell-biology",
+          "TOP-statistical-testing-and-effect-sizes"
+        ]
+      }
+    },
+    "TOP-image-registration-basics": {
+      "id": "TOP-image-registration-basics",
+      "title": "Image Registration Basics",
+      "subject_id": "SUBJ-preprocessing",
+      "summary": "Rigid/non-rigid alignment fundamentals for time-lapse and multi-channel data.",
+      "learning_outcomes": [
+        "Distinguish rigid and non-rigid registration use cases.",
+        "Evaluate registration quality and failure cases."
+      ],
+      "prerequisites": {
+        "required": [
+          "TOP-pixel-size-and-sampling"
+        ],
+        "recommended": [
+          "TOP-imaging-artifacts-and-bias"
+        ]
+      },
+      "estimated_time": {
+        "lecture_minutes": 40,
+        "practical_minutes": 45,
+        "self_study_minutes": 45,
+        "total_minutes": 130
+      },
+      "level": {
+        "bloom_min": "understand",
+        "bloom_target": "apply",
+        "difficulty": "foundational"
+      },
+      "audience_prior_knowledge": {
+        "biology": "low",
+        "physics": "low",
+        "computer_science": "medium"
+      },
+      "skill_overlap": {
+        "likely_known_by": [
+          "computer_science"
+        ],
+        "likely_new_for": [
+          "biology",
+          "physics"
+        ]
+      },
+      "delivery": {
+        "format_options": [
+          "lecture",
+          "guided-exercise"
+        ],
+        "assessment": [
+          "quiz",
+          "practical-checkpoint"
+        ]
+      },
+      "tags": [
+        "preprocessing",
+        "registration"
+      ],
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "dependencies": {
+        "enables": [
+          "TOP-feature-extraction-morphology-intensity-texture"
+        ]
+      }
+    },
+    "TOP-imaging-artifacts-and-bias": {
+      "id": "TOP-imaging-artifacts-and-bias",
+      "title": "Imaging Artifacts and Measurement Bias",
+      "subject_id": "SUBJ-imaging-foundations",
+      "summary": "Common artifacts (bleaching, drift, shading, saturation) and bias prevention strategies.",
+      "learning_outcomes": [
+        "Identify artifacts that confound biological interpretation.",
+        "Design checks to detect and mitigate bias early."
+      ],
+      "prerequisites": {
+        "required": [
+          "TOP-microscopy-modalities-overview"
+        ],
+        "recommended": [
+          "TOP-noise-models"
+        ]
+      },
+      "estimated_time": {
+        "lecture_minutes": 35,
+        "practical_minutes": 30,
+        "self_study_minutes": 35,
+        "total_minutes": 100
+      },
+      "level": {
+        "bloom_min": "understand",
+        "bloom_target": "apply",
+        "difficulty": "foundational"
+      },
+      "audience_prior_knowledge": {
+        "biology": "medium",
+        "physics": "low",
+        "computer_science": "low"
+      },
+      "skill_overlap": {
+        "likely_known_by": [
+          "biology"
+        ],
+        "likely_new_for": [
+          "computer_science"
+        ]
+      },
+      "delivery": {
+        "format_options": [
+          "lecture",
+          "guided-exercise"
+        ],
+        "assessment": [
+          "quiz",
+          "practical-checkpoint"
+        ]
+      },
+      "tags": [
+        "artifacts",
+        "bias",
+        "quality-control"
+      ],
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "dependencies": {
+        "enables": [
+          "TOP-background-correction-and-flat-fielding",
+          "TOP-data-management-and-quality-control",
+          "TOP-image-registration-basics"
+        ]
+      }
+    },
+    "TOP-intro-bioimage-analysis": {
+      "id": "TOP-intro-bioimage-analysis",
+      "title": "Introduction to Bioimage Analysis",
+      "subject_id": "SUBJ-imaging-foundations",
+      "summary": "Scope, goals, and common workflows in quantitative bioimage analysis.",
+      "learning_outcomes": [
+        "Describe the typical BIA pipeline from acquisition to interpretation.",
+        "Recognize common failure modes that impact biological conclusions."
+      ],
+      "prerequisites": {
+        "required": [
+          "none"
+        ],
+        "recommended": []
+      },
+      "estimated_time": {
+        "lecture_minutes": 30,
+        "practical_minutes": 30,
+        "self_study_minutes": 30,
+        "total_minutes": 90
+      },
+      "level": {
+        "bloom_min": "understand",
+        "bloom_target": "apply",
+        "difficulty": "foundational"
+      },
+      "audience_prior_knowledge": {
+        "biology": "low",
+        "physics": "low",
+        "computer_science": "low"
+      },
+      "skill_overlap": {
+        "likely_known_by": [],
+        "likely_new_for": [
+          "biology",
+          "physics",
+          "computer_science"
+        ]
+      },
+      "delivery": {
+        "format_options": [
+          "lecture",
+          "guided-exercise"
+        ],
+        "assessment": [
+          "quiz",
+          "practical-checkpoint"
+        ]
+      },
+      "tags": [
+        "foundations",
+        "workflow",
+        "intro"
+      ],
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "dependencies": {
+        "enables": [
+          "TOP-basic-wave-optics",
+          "TOP-bioimage-file-formats-and-metadata",
+          "TOP-microscopy-modalities-overview",
+          "TOP-noise-models"
+        ]
+      }
+    },
+    "TOP-microscopy-modalities-overview": {
+      "id": "TOP-microscopy-modalities-overview",
+      "title": "Microscopy Modalities Overview",
+      "subject_id": "SUBJ-imaging-foundations",
+      "summary": "Survey of widefield, confocal, spinning disk, and light-sheet modalities and their analysis implications.",
+      "learning_outcomes": [
+        "Compare strengths and limitations of major microscopy modalities.",
+        "Relate modality choice to downstream preprocessing and segmentation needs."
+      ],
+      "prerequisites": {
+        "required": [
+          "TOP-intro-bioimage-analysis"
+        ],
+        "recommended": []
+      },
+      "estimated_time": {
+        "lecture_minutes": 45,
+        "practical_minutes": 20,
+        "self_study_minutes": 40,
+        "total_minutes": 105
+      },
+      "level": {
+        "bloom_min": "understand",
+        "bloom_target": "apply",
+        "difficulty": "foundational"
+      },
+      "audience_prior_knowledge": {
+        "biology": "medium",
+        "physics": "low",
+        "computer_science": "low"
+      },
+      "skill_overlap": {
+        "likely_known_by": [
+          "biology"
+        ],
+        "likely_new_for": [
+          "computer_science"
+        ]
+      },
+      "delivery": {
+        "format_options": [
+          "lecture",
+          "guided-exercise"
+        ],
+        "assessment": [
+          "quiz",
+          "practical-checkpoint"
+        ]
+      },
+      "tags": [
+        "microscopy",
+        "acquisition",
+        "foundations"
+      ],
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "dependencies": {
+        "enables": [
+          "TOP-imaging-artifacts-and-bias",
+          "TOP-pixel-size-and-sampling"
+        ]
+      }
+    },
+    "TOP-ml-segmentation-overview": {
+      "id": "TOP-ml-segmentation-overview",
+      "title": "ML-based Segmentation Overview",
+      "subject_id": "SUBJ-machine-learning-bia",
+      "summary": "Practical overview of supervised deep-learning segmentation workflows and caveats.",
+      "learning_outcomes": [
+        "Describe training/validation/testing splits for segmentation models.",
+        "Recognize data bias and domain-shift risks in biological imaging."
+      ],
+      "prerequisites": {
+        "required": [
+          "TOP-classical-segmentation-methods"
+        ],
+        "recommended": [
+          "TOP-workflows-scripting-and-reproducibility"
+        ]
+      },
+      "estimated_time": {
+        "lecture_minutes": 45,
+        "practical_minutes": 60,
+        "self_study_minutes": 60,
+        "total_minutes": 165
+      },
+      "level": {
+        "bloom_min": "understand",
+        "bloom_target": "apply",
+        "difficulty": "foundational"
+      },
+      "audience_prior_knowledge": {
+        "biology": "low",
+        "physics": "low",
+        "computer_science": "medium"
+      },
+      "skill_overlap": {
+        "likely_known_by": [
+          "computer_science"
+        ],
+        "likely_new_for": [
+          "biology",
+          "physics"
+        ]
+      },
+      "delivery": {
+        "format_options": [
+          "lecture",
+          "guided-exercise"
+        ],
+        "assessment": [
+          "quiz",
+          "practical-checkpoint"
+        ]
+      },
+      "tags": [
+        "machine-learning",
+        "segmentation",
+        "validation"
+      ],
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "dependencies": {
+        "enables": [
+          "TOP-domain-case-study-cell-biology",
+          "TOP-segmentation-quality-metrics"
+        ]
+      }
+    },
+    "TOP-noise-models": {
+      "id": "TOP-noise-models",
+      "title": "Noise Models in Bioimaging",
+      "subject_id": "SUBJ-imaging-foundations",
+      "summary": "Photon, read, and background noise models and their impact on analysis.",
+      "learning_outcomes": [
+        "Differentiate key noise sources in microscopy data.",
+        "Use noise characteristics to motivate preprocessing choices."
+      ],
+      "prerequisites": {
+        "required": [
+          "TOP-intro-bioimage-analysis"
+        ],
+        "recommended": [
+          "TOP-basic-wave-optics"
+        ]
+      },
+      "estimated_time": {
+        "lecture_minutes": 40,
+        "practical_minutes": 35,
+        "self_study_minutes": 45,
+        "total_minutes": 120
+      },
+      "level": {
+        "bloom_min": "understand",
+        "bloom_target": "apply",
+        "difficulty": "foundational"
+      },
+      "audience_prior_knowledge": {
+        "biology": "low",
+        "physics": "medium",
+        "computer_science": "medium"
+      },
+      "skill_overlap": {
+        "likely_known_by": [
+          "physics",
+          "computer_science"
+        ],
+        "likely_new_for": [
+          "biology"
+        ]
+      },
+      "delivery": {
+        "format_options": [
+          "lecture",
+          "guided-exercise"
+        ],
+        "assessment": [
+          "quiz",
+          "practical-checkpoint"
+        ]
+      },
+      "tags": [
+        "noise",
+        "foundations",
+        "preprocessing"
+      ],
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "dependencies": {
+        "enables": [
+          "TOP-background-correction-and-flat-fielding",
+          "TOP-deconvolution-basics",
+          "TOP-denoising-classical-methods",
+          "TOP-imaging-artifacts-and-bias",
+          "TOP-psf-and-resolution"
+        ]
+      }
+    },
+    "TOP-ome-data-model-and-standards": {
+      "id": "TOP-ome-data-model-and-standards",
+      "title": "OME Data Model and Standards",
+      "subject_id": "SUBJ-image-data-formats",
+      "summary": "OME concepts and practical use for managing microscopy metadata consistently.",
+      "learning_outcomes": [
+        "Explain core entities in the OME data model.",
+        "Use OME-compatible outputs in analysis workflows."
+      ],
+      "prerequisites": {
+        "required": [
+          "TOP-bioimage-file-formats-and-metadata"
+        ],
+        "recommended": []
+      },
+      "estimated_time": {
+        "lecture_minutes": 30,
+        "practical_minutes": 30,
+        "self_study_minutes": 40,
+        "total_minutes": 100
+      },
+      "level": {
+        "bloom_min": "understand",
+        "bloom_target": "apply",
+        "difficulty": "foundational"
+      },
+      "audience_prior_knowledge": {
+        "biology": "low",
+        "physics": "low",
+        "computer_science": "medium"
+      },
+      "skill_overlap": {
+        "likely_known_by": [
+          "computer_science"
+        ],
+        "likely_new_for": [
+          "biology",
+          "physics"
+        ]
+      },
+      "delivery": {
+        "format_options": [
+          "lecture",
+          "guided-exercise"
+        ],
+        "assessment": [
+          "quiz",
+          "practical-checkpoint"
+        ]
+      },
+      "tags": [
+        "ome",
+        "metadata",
+        "standards"
+      ],
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "dependencies": {
+        "enables": [
+          "TOP-workflows-scripting-and-reproducibility"
+        ]
+      }
+    },
+    "TOP-pixel-size-and-sampling": {
+      "id": "TOP-pixel-size-and-sampling",
+      "title": "Pixel Size and Sampling",
+      "subject_id": "SUBJ-imaging-foundations",
+      "summary": "Sampling theory basics (Nyquist, aliasing) for microscopy images.",
+      "learning_outcomes": [
+        "Compute whether sampling is adequate for a target resolution.",
+        "Identify undersampling and oversampling trade-offs."
+      ],
+      "prerequisites": {
+        "required": [
+          "TOP-basic-wave-optics"
+        ],
+        "recommended": [
+          "TOP-microscopy-modalities-overview"
+        ]
+      },
+      "estimated_time": {
+        "lecture_minutes": 40,
+        "practical_minutes": 30,
+        "self_study_minutes": 40,
+        "total_minutes": 110
+      },
+      "level": {
+        "bloom_min": "understand",
+        "bloom_target": "apply",
+        "difficulty": "foundational"
+      },
+      "audience_prior_knowledge": {
+        "biology": "low",
+        "physics": "medium",
+        "computer_science": "medium"
+      },
+      "skill_overlap": {
+        "likely_known_by": [
+          "physics",
+          "computer_science"
+        ],
+        "likely_new_for": [
+          "biology"
+        ]
+      },
+      "delivery": {
+        "format_options": [
+          "lecture",
+          "guided-exercise"
+        ],
+        "assessment": [
+          "quiz",
+          "practical-checkpoint"
+        ]
+      },
+      "tags": [
+        "sampling",
+        "resolution",
+        "foundations",
+        "bridge-for-biology"
+      ],
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "dependencies": {
+        "enables": [
+          "TOP-deconvolution-basics",
+          "TOP-denoising-classical-methods",
+          "TOP-image-registration-basics",
+          "TOP-psf-and-resolution"
+        ]
+      }
+    },
+    "TOP-psf-and-resolution": {
+      "id": "TOP-psf-and-resolution",
+      "title": "Point Spread Function (PSF) and Resolution",
+      "subject_id": "SUBJ-imaging-foundations",
+      "summary": "PSF, diffraction-limited resolution, and consequences for analysis quality.",
+      "learning_outcomes": [
+        "Explain PSF and diffraction-limited resolution.",
+        "Relate resolution limits to segmentation and quantification uncertainty."
+      ],
+      "prerequisites": {
+        "required": [
+          "TOP-basic-wave-optics",
+          "TOP-pixel-size-and-sampling"
+        ],
+        "recommended": [
+          "TOP-noise-models"
+        ]
+      },
+      "estimated_time": {
+        "lecture_minutes": 45,
+        "practical_minutes": 30,
+        "self_study_minutes": 60,
+        "total_minutes": 135
+      },
+      "level": {
+        "bloom_min": "understand",
+        "bloom_target": "apply",
+        "difficulty": "foundational"
+      },
+      "audience_prior_knowledge": {
+        "biology": "low",
+        "physics": "medium",
+        "computer_science": "low"
+      },
+      "skill_overlap": {
+        "likely_known_by": [
+          "physics"
+        ],
+        "likely_new_for": [
+          "biology",
+          "computer_science"
+        ]
+      },
+      "delivery": {
+        "format_options": [
+          "lecture",
+          "guided-exercise"
+        ],
+        "assessment": [
+          "quiz",
+          "practical-checkpoint"
+        ]
+      },
+      "tags": [
+        "microscopy",
+        "image-formation",
+        "resolution",
+        "foundations"
+      ],
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "dependencies": {
+        "enables": [
+          "TOP-deconvolution-basics"
+        ]
+      }
+    },
+    "TOP-segmentation-quality-metrics": {
+      "id": "TOP-segmentation-quality-metrics",
+      "title": "Segmentation Quality Metrics",
+      "subject_id": "SUBJ-segmentation-detection",
+      "summary": "Metric-based evaluation of segmentation outputs and annotation agreement.",
+      "learning_outcomes": [
+        "Compute overlap and boundary-based quality metrics.",
+        "Interpret metric values in context of downstream biological decisions."
+      ],
+      "prerequisites": {
+        "required": [
+          "TOP-classical-segmentation-methods"
+        ],
+        "recommended": [
+          "TOP-ml-segmentation-overview",
+          "TOP-statistical-testing-and-effect-sizes"
+        ]
+      },
+      "estimated_time": {
+        "lecture_minutes": 35,
+        "practical_minutes": 45,
+        "self_study_minutes": 40,
+        "total_minutes": 120
+      },
+      "level": {
+        "bloom_min": "understand",
+        "bloom_target": "apply",
+        "difficulty": "foundational"
+      },
+      "audience_prior_knowledge": {
+        "biology": "low",
+        "physics": "low",
+        "computer_science": "medium"
+      },
+      "skill_overlap": {
+        "likely_known_by": [
+          "computer_science"
+        ],
+        "likely_new_for": [
+          "biology",
+          "physics"
+        ]
+      },
+      "delivery": {
+        "format_options": [
+          "lecture",
+          "guided-exercise"
+        ],
+        "assessment": [
+          "quiz",
+          "practical-checkpoint"
+        ]
+      },
+      "tags": [
+        "segmentation",
+        "metrics",
+        "validation"
+      ],
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "dependencies": {
+        "enables": [
+          "TOP-feature-extraction-morphology-intensity-texture"
+        ]
+      }
+    },
+    "TOP-statistical-testing-and-effect-sizes": {
+      "id": "TOP-statistical-testing-and-effect-sizes",
+      "title": "Statistical Testing and Effect Sizes",
+      "subject_id": "SUBJ-statistics-experimental-design",
+      "summary": "Statistical testing, confidence intervals, and effect size reporting for image-derived data.",
+      "learning_outcomes": [
+        "Select statistical tests based on assumptions and design.",
+        "Report effect sizes and uncertainty alongside p-values."
+      ],
+      "prerequisites": {
+        "required": [
+          "TOP-feature-extraction-morphology-intensity-texture"
+        ],
+        "recommended": []
+      },
+      "estimated_time": {
+        "lecture_minutes": 45,
+        "practical_minutes": 45,
+        "self_study_minutes": 60,
+        "total_minutes": 150
+      },
+      "level": {
+        "bloom_min": "understand",
+        "bloom_target": "apply",
+        "difficulty": "foundational"
+      },
+      "audience_prior_knowledge": {
+        "biology": "medium",
+        "physics": "medium",
+        "computer_science": "medium"
+      },
+      "skill_overlap": {
+        "likely_known_by": [
+          "physics"
+        ],
+        "likely_new_for": [
+          "biology"
+        ]
+      },
+      "delivery": {
+        "format_options": [
+          "lecture",
+          "guided-exercise"
+        ],
+        "assessment": [
+          "quiz",
+          "practical-checkpoint"
+        ]
+      },
+      "tags": [
+        "statistics",
+        "inference",
+        "effect-size",
+        "bridge-for-biology"
+      ],
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "dependencies": {
+        "enables": [
+          "TOP-experimental-design-controls-and-power",
+          "TOP-segmentation-quality-metrics"
+        ]
+      }
+    },
+    "TOP-thresholding-and-binarization": {
+      "id": "TOP-thresholding-and-binarization",
+      "title": "Thresholding and Binarization",
+      "subject_id": "SUBJ-segmentation-detection",
+      "summary": "Global and local thresholding approaches as entry-level segmentation tools.",
+      "learning_outcomes": [
+        "Apply global and adaptive thresholding appropriately.",
+        "Diagnose under- and over-segmentation from threshold choices."
+      ],
+      "prerequisites": {
+        "required": [
+          "TOP-background-correction-and-flat-fielding"
+        ],
+        "recommended": [
+          "TOP-denoising-classical-methods"
+        ]
+      },
+      "estimated_time": {
+        "lecture_minutes": 35,
+        "practical_minutes": 45,
+        "self_study_minutes": 35,
+        "total_minutes": 115
+      },
+      "level": {
+        "bloom_min": "understand",
+        "bloom_target": "apply",
+        "difficulty": "foundational"
+      },
+      "audience_prior_knowledge": {
+        "biology": "low",
+        "physics": "low",
+        "computer_science": "low"
+      },
+      "skill_overlap": {
+        "likely_known_by": [
+          "computer_science"
+        ],
+        "likely_new_for": [
+          "biology",
+          "physics"
+        ]
+      },
+      "delivery": {
+        "format_options": [
+          "lecture",
+          "guided-exercise"
+        ],
+        "assessment": [
+          "quiz",
+          "practical-checkpoint"
+        ]
+      },
+      "tags": [
+        "segmentation",
+        "thresholding"
+      ],
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "dependencies": {
+        "enables": [
+          "TOP-classical-segmentation-methods"
+        ]
+      }
+    },
+    "TOP-workflows-scripting-and-reproducibility": {
+      "id": "TOP-workflows-scripting-and-reproducibility",
+      "title": "Workflows, Scripting, and Reproducibility",
+      "subject_id": "SUBJ-automation-reproducibility",
+      "summary": "From GUI pipelines to scripted workflows with provenance and version control.",
+      "learning_outcomes": [
+        "Automate repeatable workflows for batch analysis.",
+        "Capture provenance and version information for reproducible reporting."
+      ],
+      "prerequisites": {
+        "required": [
+          "TOP-data-management-and-quality-control"
+        ],
+        "recommended": [
+          "TOP-ome-data-model-and-standards"
+        ]
+      },
+      "estimated_time": {
+        "lecture_minutes": 40,
+        "practical_minutes": 60,
+        "self_study_minutes": 60,
+        "total_minutes": 160
+      },
+      "level": {
+        "bloom_min": "understand",
+        "bloom_target": "apply",
+        "difficulty": "foundational"
+      },
+      "audience_prior_knowledge": {
+        "biology": "low",
+        "physics": "low",
+        "computer_science": "high"
+      },
+      "skill_overlap": {
+        "likely_known_by": [
+          "computer_science"
+        ],
+        "likely_new_for": [
+          "biology",
+          "physics"
+        ]
+      },
+      "delivery": {
+        "format_options": [
+          "lecture",
+          "guided-exercise"
+        ],
+        "assessment": [
+          "quiz",
+          "practical-checkpoint"
+        ]
+      },
+      "tags": [
+        "automation",
+        "scripting",
+        "reproducibility",
+        "bridge-for-biology",
+        "bridge-for-physics"
+      ],
+      "references": [
+        {
+          "type": "publication",
+          "citation": "Journal of Microscopy competency framework (2025).",
+          "url": "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
+        },
+        {
+          "type": "training-module",
+          "citation": "NEUBIAS Training Resources.",
+          "url": "https://neubias.github.io/training-resources/"
+        }
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      },
+      "dependencies": {
+        "enables": [
+          "TOP-domain-case-study-cell-biology",
+          "TOP-ml-segmentation-overview"
+        ]
+      }
+    }
+  },
+  "paths": {
+    "PATH-bia-for-biologists": {
+      "id": "PATH-bia-for-biologists",
+      "name": "BIA for Biologists",
+      "target_audience": "biology",
+      "summary": "Application-first pathway with bridge support for optics, statistics, and scripting.",
+      "constraints": {
+        "total_minutes": 2355,
+        "format": "blended"
+      },
+      "topics_ordered": [
+        "TOP-intro-bioimage-analysis",
+        "TOP-microscopy-modalities-overview",
+        "TOP-imaging-artifacts-and-bias",
+        "TOP-bioimage-file-formats-and-metadata",
+        "TOP-data-management-and-quality-control",
+        "TOP-basic-wave-optics",
+        "TOP-pixel-size-and-sampling",
+        "TOP-psf-and-resolution",
+        "TOP-noise-models",
+        "TOP-background-correction-and-flat-fielding",
+        "TOP-denoising-classical-methods",
+        "TOP-thresholding-and-binarization",
+        "TOP-classical-segmentation-methods",
+        "TOP-segmentation-quality-metrics",
+        "TOP-feature-extraction-morphology-intensity-texture",
+        "TOP-statistical-testing-and-effect-sizes",
+        "TOP-experimental-design-controls-and-power",
+        "TOP-workflows-scripting-and-reproducibility",
+        "TOP-domain-case-study-cell-biology"
+      ],
+      "optional_bridge_topics": [
+        "TOP-basic-wave-optics",
+        "TOP-statistical-testing-and-effect-sizes",
+        "TOP-workflows-scripting-and-reproducibility"
+      ],
+      "outcomes": [
+        "Design and run a reproducible BIA workflow for cell biology questions."
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      }
+    },
+    "PATH-bia-for-computer-scientists": {
+      "id": "PATH-bia-for-computer-scientists",
+      "name": "BIA for Computer Scientists",
+      "target_audience": "computer_science",
+      "summary": "Method-focused route with bridges in microscopy physics and experimental design.",
+      "constraints": {
+        "total_minutes": 2590,
+        "format": "blended"
+      },
+      "topics_ordered": [
+        "TOP-intro-bioimage-analysis",
+        "TOP-microscopy-modalities-overview",
+        "TOP-basic-wave-optics",
+        "TOP-pixel-size-and-sampling",
+        "TOP-psf-and-resolution",
+        "TOP-noise-models",
+        "TOP-imaging-artifacts-and-bias",
+        "TOP-bioimage-file-formats-and-metadata",
+        "TOP-ome-data-model-and-standards",
+        "TOP-data-management-and-quality-control",
+        "TOP-background-correction-and-flat-fielding",
+        "TOP-denoising-classical-methods",
+        "TOP-image-registration-basics",
+        "TOP-thresholding-and-binarization",
+        "TOP-classical-segmentation-methods",
+        "TOP-ml-segmentation-overview",
+        "TOP-segmentation-quality-metrics",
+        "TOP-feature-extraction-morphology-intensity-texture",
+        "TOP-statistical-testing-and-effect-sizes",
+        "TOP-experimental-design-controls-and-power",
+        "TOP-domain-case-study-cell-biology"
+      ],
+      "optional_bridge_topics": [
+        "TOP-basic-wave-optics",
+        "TOP-microscopy-modalities-overview",
+        "TOP-experimental-design-controls-and-power"
+      ],
+      "outcomes": [
+        "Implement acquisition-aware and biologically valid analysis pipelines."
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      }
+    },
+    "PATH-bia-for-physicists": {
+      "id": "PATH-bia-for-physicists",
+      "name": "BIA for Physicists",
+      "target_audience": "physics",
+      "summary": "Builds on strong quantitative background and emphasizes biological assay context and interpretation.",
+      "constraints": {
+        "total_minutes": 2450,
+        "format": "blended"
+      },
+      "topics_ordered": [
+        "TOP-intro-bioimage-analysis",
+        "TOP-microscopy-modalities-overview",
+        "TOP-bioimage-file-formats-and-metadata",
+        "TOP-ome-data-model-and-standards",
+        "TOP-data-management-and-quality-control",
+        "TOP-noise-models",
+        "TOP-imaging-artifacts-and-bias",
+        "TOP-background-correction-and-flat-fielding",
+        "TOP-denoising-classical-methods",
+        "TOP-basic-wave-optics",
+        "TOP-pixel-size-and-sampling",
+        "TOP-image-registration-basics",
+        "TOP-thresholding-and-binarization",
+        "TOP-classical-segmentation-methods",
+        "TOP-segmentation-quality-metrics",
+        "TOP-feature-extraction-morphology-intensity-texture",
+        "TOP-statistical-testing-and-effect-sizes",
+        "TOP-experimental-design-controls-and-power",
+        "TOP-workflows-scripting-and-reproducibility",
+        "TOP-domain-case-study-cell-biology"
+      ],
+      "optional_bridge_topics": [
+        "TOP-experimental-design-controls-and-power"
+      ],
+      "outcomes": [
+        "Translate quantitative imaging expertise into biologically grounded analysis decisions."
+      ],
+      "status": {
+        "maturity": "draft",
+        "owner": "curriculum-team",
+        "last_updated": "2026-09-01"
+      }
+    }
+  },
+  "edges": [
+    {
+      "from": "TOP-imaging-artifacts-and-bias",
+      "to": "TOP-background-correction-and-flat-fielding",
+      "type": "required"
+    },
+    {
+      "from": "TOP-noise-models",
+      "to": "TOP-background-correction-and-flat-fielding",
+      "type": "recommended"
+    },
+    {
+      "from": "TOP-intro-bioimage-analysis",
+      "to": "TOP-basic-wave-optics",
+      "type": "required"
+    },
+    {
+      "from": "TOP-intro-bioimage-analysis",
+      "to": "TOP-bioimage-file-formats-and-metadata",
+      "type": "required"
+    },
+    {
+      "from": "TOP-thresholding-and-binarization",
+      "to": "TOP-classical-segmentation-methods",
+      "type": "required"
+    },
+    {
+      "from": "TOP-denoising-classical-methods",
+      "to": "TOP-classical-segmentation-methods",
+      "type": "recommended"
+    },
+    {
+      "from": "TOP-deconvolution-basics",
+      "to": "TOP-classical-segmentation-methods",
+      "type": "recommended"
+    },
+    {
+      "from": "TOP-bioimage-file-formats-and-metadata",
+      "to": "TOP-data-management-and-quality-control",
+      "type": "required"
+    },
+    {
+      "from": "TOP-imaging-artifacts-and-bias",
+      "to": "TOP-data-management-and-quality-control",
+      "type": "recommended"
+    },
+    {
+      "from": "TOP-psf-and-resolution",
+      "to": "TOP-deconvolution-basics",
+      "type": "required"
+    },
+    {
+      "from": "TOP-pixel-size-and-sampling",
+      "to": "TOP-deconvolution-basics",
+      "type": "required"
+    },
+    {
+      "from": "TOP-noise-models",
+      "to": "TOP-deconvolution-basics",
+      "type": "recommended"
+    },
+    {
+      "from": "TOP-noise-models",
+      "to": "TOP-denoising-classical-methods",
+      "type": "required"
+    },
+    {
+      "from": "TOP-pixel-size-and-sampling",
+      "to": "TOP-denoising-classical-methods",
+      "type": "recommended"
+    },
+    {
+      "from": "TOP-feature-extraction-morphology-intensity-texture",
+      "to": "TOP-domain-case-study-cell-biology",
+      "type": "required"
+    },
+    {
+      "from": "TOP-experimental-design-controls-and-power",
+      "to": "TOP-domain-case-study-cell-biology",
+      "type": "required"
+    },
+    {
+      "from": "TOP-ml-segmentation-overview",
+      "to": "TOP-domain-case-study-cell-biology",
+      "type": "recommended"
+    },
+    {
+      "from": "TOP-workflows-scripting-and-reproducibility",
+      "to": "TOP-domain-case-study-cell-biology",
+      "type": "recommended"
+    },
+    {
+      "from": "TOP-statistical-testing-and-effect-sizes",
+      "to": "TOP-experimental-design-controls-and-power",
+      "type": "required"
+    },
+    {
+      "from": "TOP-data-management-and-quality-control",
+      "to": "TOP-experimental-design-controls-and-power",
+      "type": "recommended"
+    },
+    {
+      "from": "TOP-classical-segmentation-methods",
+      "to": "TOP-feature-extraction-morphology-intensity-texture",
+      "type": "required"
+    },
+    {
+      "from": "TOP-image-registration-basics",
+      "to": "TOP-feature-extraction-morphology-intensity-texture",
+      "type": "recommended"
+    },
+    {
+      "from": "TOP-segmentation-quality-metrics",
+      "to": "TOP-feature-extraction-morphology-intensity-texture",
+      "type": "recommended"
+    },
+    {
+      "from": "TOP-pixel-size-and-sampling",
+      "to": "TOP-image-registration-basics",
+      "type": "required"
+    },
+    {
+      "from": "TOP-imaging-artifacts-and-bias",
+      "to": "TOP-image-registration-basics",
+      "type": "recommended"
+    },
+    {
+      "from": "TOP-microscopy-modalities-overview",
+      "to": "TOP-imaging-artifacts-and-bias",
+      "type": "required"
+    },
+    {
+      "from": "TOP-noise-models",
+      "to": "TOP-imaging-artifacts-and-bias",
+      "type": "recommended"
+    },
+    {
+      "from": "TOP-intro-bioimage-analysis",
+      "to": "TOP-microscopy-modalities-overview",
+      "type": "required"
+    },
+    {
+      "from": "TOP-classical-segmentation-methods",
+      "to": "TOP-ml-segmentation-overview",
+      "type": "required"
+    },
+    {
+      "from": "TOP-workflows-scripting-and-reproducibility",
+      "to": "TOP-ml-segmentation-overview",
+      "type": "recommended"
+    },
+    {
+      "from": "TOP-intro-bioimage-analysis",
+      "to": "TOP-noise-models",
+      "type": "required"
+    },
+    {
+      "from": "TOP-basic-wave-optics",
+      "to": "TOP-noise-models",
+      "type": "recommended"
+    },
+    {
+      "from": "TOP-bioimage-file-formats-and-metadata",
+      "to": "TOP-ome-data-model-and-standards",
+      "type": "required"
+    },
+    {
+      "from": "TOP-basic-wave-optics",
+      "to": "TOP-pixel-size-and-sampling",
+      "type": "required"
+    },
+    {
+      "from": "TOP-microscopy-modalities-overview",
+      "to": "TOP-pixel-size-and-sampling",
+      "type": "recommended"
+    },
+    {
+      "from": "TOP-basic-wave-optics",
+      "to": "TOP-psf-and-resolution",
+      "type": "required"
+    },
+    {
+      "from": "TOP-pixel-size-and-sampling",
+      "to": "TOP-psf-and-resolution",
+      "type": "required"
+    },
+    {
+      "from": "TOP-noise-models",
+      "to": "TOP-psf-and-resolution",
+      "type": "recommended"
+    },
+    {
+      "from": "TOP-classical-segmentation-methods",
+      "to": "TOP-segmentation-quality-metrics",
+      "type": "required"
+    },
+    {
+      "from": "TOP-ml-segmentation-overview",
+      "to": "TOP-segmentation-quality-metrics",
+      "type": "recommended"
+    },
+    {
+      "from": "TOP-statistical-testing-and-effect-sizes",
+      "to": "TOP-segmentation-quality-metrics",
+      "type": "recommended"
+    },
+    {
+      "from": "TOP-feature-extraction-morphology-intensity-texture",
+      "to": "TOP-statistical-testing-and-effect-sizes",
+      "type": "required"
+    },
+    {
+      "from": "TOP-background-correction-and-flat-fielding",
+      "to": "TOP-thresholding-and-binarization",
+      "type": "required"
+    },
+    {
+      "from": "TOP-denoising-classical-methods",
+      "to": "TOP-thresholding-and-binarization",
+      "type": "recommended"
+    },
+    {
+      "from": "TOP-data-management-and-quality-control",
+      "to": "TOP-workflows-scripting-and-reproducibility",
+      "type": "required"
+    },
+    {
+      "from": "TOP-ome-data-model-and-standards",
+      "to": "TOP-workflows-scripting-and-reproducibility",
+      "type": "recommended"
+    }
+  ],
+  "derived": {
+    "subject_time_estimates": {
+      "SUBJ-automation-reproducibility": {
+        "total_lecture_minutes": 40,
+        "total_practical_minutes": 60,
+        "total_self_study_minutes": 60,
+        "total_minutes": 160
+      },
+      "SUBJ-domain-applications": {
+        "total_lecture_minutes": 30,
+        "total_practical_minutes": 90,
+        "total_self_study_minutes": 60,
+        "total_minutes": 180
+      },
+      "SUBJ-feature-extraction-quantification": {
+        "total_lecture_minutes": 45,
+        "total_practical_minutes": 60,
+        "total_self_study_minutes": 50,
+        "total_minutes": 155
+      },
+      "SUBJ-image-data-formats": {
+        "total_lecture_minutes": 95,
+        "total_practical_minutes": 85,
+        "total_self_study_minutes": 105,
+        "total_minutes": 285
+      },
+      "SUBJ-imaging-foundations": {
+        "total_lecture_minutes": 280,
+        "total_practical_minutes": 205,
+        "total_self_study_minutes": 295,
+        "total_minutes": 780
+      },
+      "SUBJ-machine-learning-bia": {
+        "total_lecture_minutes": 45,
+        "total_practical_minutes": 60,
+        "total_self_study_minutes": 60,
+        "total_minutes": 165
+      },
+      "SUBJ-preprocessing": {
+        "total_lecture_minutes": 160,
+        "total_practical_minutes": 175,
+        "total_self_study_minutes": 185,
+        "total_minutes": 520
+      },
+      "SUBJ-segmentation-detection": {
+        "total_lecture_minutes": 115,
+        "total_practical_minutes": 150,
+        "total_self_study_minutes": 120,
+        "total_minutes": 385
+      },
+      "SUBJ-statistics-experimental-design": {
+        "total_lecture_minutes": 85,
+        "total_practical_minutes": 75,
+        "total_self_study_minutes": 110,
+        "total_minutes": 270
+      }
+    },
+    "topic_time_estimates": {
+      "TOP-background-correction-and-flat-fielding": 115,
+      "TOP-basic-wave-optics": 120,
+      "TOP-bioimage-file-formats-and-metadata": 95,
+      "TOP-classical-segmentation-methods": 150,
+      "TOP-data-management-and-quality-control": 90,
+      "TOP-deconvolution-basics": 150,
+      "TOP-denoising-classical-methods": 125,
+      "TOP-domain-case-study-cell-biology": 180,
+      "TOP-experimental-design-controls-and-power": 120,
+      "TOP-feature-extraction-morphology-intensity-texture": 155,
+      "TOP-image-registration-basics": 130,
+      "TOP-imaging-artifacts-and-bias": 100,
+      "TOP-intro-bioimage-analysis": 90,
+      "TOP-microscopy-modalities-overview": 105,
+      "TOP-ml-segmentation-overview": 165,
+      "TOP-noise-models": 120,
+      "TOP-ome-data-model-and-standards": 100,
+      "TOP-pixel-size-and-sampling": 110,
+      "TOP-psf-and-resolution": 135,
+      "TOP-segmentation-quality-metrics": 120,
+      "TOP-statistical-testing-and-effect-sizes": 150,
+      "TOP-thresholding-and-binarization": 115,
+      "TOP-workflows-scripting-and-reproducibility": 160
+    },
+    "path_time_estimates": {
+      "PATH-bia-for-biologists": 2355,
+      "PATH-bia-for-computer-scientists": 2590,
+      "PATH-bia-for-physicists": 2450
+    }
+  }
+}

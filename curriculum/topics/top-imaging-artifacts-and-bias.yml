@@ -1,15 +1,16 @@
 id: TOP-imaging-artifacts-and-bias
 title: Imaging Artifacts and Measurement Bias
 subject_id: SUBJ-imaging-foundations
-summary: Common artifacts (bleaching, drift, shading, saturation) and bias prevention strategies.
+summary: Common artifacts (bleaching, drift, shading, saturation) and bias prevention
+  strategies.
 learning_outcomes:
-  - Identify artifacts that confound biological interpretation.
-  - Design checks to detect and mitigate bias early.
+- Identify artifacts that confound biological interpretation.
+- Design checks to detect and mitigate bias early.
 prerequisites:
   required:
-    - TOP-microscopy-modalities-overview
+  - TOP-microscopy-modalities-overview
   recommended:
-    - TOP-noise-models
+  - TOP-noise-models
 estimated_time:
   lecture_minutes: 35
   practical_minutes: 30
@@ -25,33 +26,27 @@ audience_prior_knowledge:
   computer_science: low
 skill_overlap:
   likely_known_by:
-    - biology
+  - biology
   likely_new_for:
-    - computer_science
+  - computer_science
 delivery:
   format_options:
-    - lecture
-    - guided-exercise
+  - lecture
+  - guided-exercise
   assessment:
-    - quiz
-    - practical-checkpoint
-dependencies:
-  enables:
-    - TOP-background-correction-and-flat-fielding
-    - TOP-data-management-and-quality-control
+  - quiz
+  - practical-checkpoint
 tags:
-  - artifacts
-  - bias
-  - quality-control
+- artifacts
+- bias
+- quality-control
 references:
-  -
-    type: publication
-    citation: Journal of Microscopy competency framework (2025).
-    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
-  -
-    type: training-module
-    citation: NEUBIAS Training Resources.
-    url: "https://neubias.github.io/training-resources/"
+- type: publication
+  citation: Journal of Microscopy competency framework (2025).
+  url: https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133
+- type: training-module
+  citation: NEUBIAS Training Resources.
+  url: https://neubias.github.io/training-resources/
 status:
   maturity: draft
   owner: curriculum-team

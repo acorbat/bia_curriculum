@@ -3,14 +3,14 @@ title: Point Spread Function (PSF) and Resolution
 subject_id: SUBJ-imaging-foundations
 summary: PSF, diffraction-limited resolution, and consequences for analysis quality.
 learning_outcomes:
-  - Explain PSF and diffraction-limited resolution.
-  - Relate resolution limits to segmentation and quantification uncertainty.
+- Explain PSF and diffraction-limited resolution.
+- Relate resolution limits to segmentation and quantification uncertainty.
 prerequisites:
   required:
-    - TOP-basic-wave-optics
-    - TOP-pixel-size-and-sampling
+  - TOP-basic-wave-optics
+  - TOP-pixel-size-and-sampling
   recommended:
-    - TOP-noise-models
+  - TOP-noise-models
 estimated_time:
   lecture_minutes: 45
   practical_minutes: 30
@@ -26,35 +26,29 @@ audience_prior_knowledge:
   computer_science: low
 skill_overlap:
   likely_known_by:
-    - physics
+  - physics
   likely_new_for:
-    - biology
-    - computer_science
+  - biology
+  - computer_science
 delivery:
   format_options:
-    - lecture
-    - guided-exercise
+  - lecture
+  - guided-exercise
   assessment:
-    - quiz
-    - practical-checkpoint
-dependencies:
-  enables:
-    - TOP-deconvolution-basics
-    - TOP-segmentation-quality-metrics
+  - quiz
+  - practical-checkpoint
 tags:
-  - microscopy
-  - image-formation
-  - resolution
-  - foundations
+- microscopy
+- image-formation
+- resolution
+- foundations
 references:
-  -
-    type: publication
-    citation: Journal of Microscopy competency framework (2025).
-    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
-  -
-    type: training-module
-    citation: NEUBIAS Training Resources.
-    url: "https://neubias.github.io/training-resources/"
+- type: publication
+  citation: Journal of Microscopy competency framework (2025).
+  url: https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133
+- type: training-module
+  citation: NEUBIAS Training Resources.
+  url: https://neubias.github.io/training-resources/
 status:
   maturity: draft
   owner: curriculum-team

@@ -3,14 +3,14 @@ title: Deconvolution Basics
 subject_id: SUBJ-preprocessing
 summary: Conceptual and practical introduction to deconvolution in fluorescence microscopy.
 learning_outcomes:
-  - Explain when deconvolution can improve interpretability.
-  - Recognize artifacts introduced by poor PSF assumptions.
+- Explain when deconvolution can improve interpretability.
+- Recognize artifacts introduced by poor PSF assumptions.
 prerequisites:
   required:
-    - TOP-psf-and-resolution
-    - TOP-pixel-size-and-sampling
+  - TOP-psf-and-resolution
+  - TOP-pixel-size-and-sampling
   recommended:
-    - TOP-noise-models
+  - TOP-noise-models
 estimated_time:
   lecture_minutes: 45
   practical_minutes: 45
@@ -26,33 +26,27 @@ audience_prior_knowledge:
   computer_science: medium
 skill_overlap:
   likely_known_by:
-    - physics
-    - computer_science
+  - physics
+  - computer_science
   likely_new_for:
-    - biology
+  - biology
 delivery:
   format_options:
-    - lecture
-    - guided-exercise
+  - lecture
+  - guided-exercise
   assessment:
-    - quiz
-    - practical-checkpoint
-dependencies:
-  enables:
-    - TOP-classical-segmentation-methods
-    - TOP-feature-extraction-morphology-intensity-texture
+  - quiz
+  - practical-checkpoint
 tags:
-  - preprocessing
-  - deconvolution
+- preprocessing
+- deconvolution
 references:
-  -
-    type: publication
-    citation: Journal of Microscopy competency framework (2025).
-    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
-  -
-    type: training-module
-    citation: NEUBIAS Training Resources.
-    url: "https://neubias.github.io/training-resources/"
+- type: publication
+  citation: Journal of Microscopy competency framework (2025).
+  url: https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133
+- type: training-module
+  citation: NEUBIAS Training Resources.
+  url: https://neubias.github.io/training-resources/
 status:
   maturity: draft
   owner: curriculum-team

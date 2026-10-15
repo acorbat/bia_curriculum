@@ -14,11 +14,7 @@ recommended_order:
   - TOP-<topic-id-1>
   - TOP-<topic-id-2>
 
-estimated_time:
-  total_lecture_minutes: 0
-  total_practical_minutes: 0
-  total_self_study_minutes: 0
-  total_minutes: 0
+# Time totals are derived from the assigned topics by the curriculum build script.
 
 audience_fit:
   primary:

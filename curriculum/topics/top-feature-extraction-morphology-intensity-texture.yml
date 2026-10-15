@@ -1,16 +1,16 @@
 id: TOP-feature-extraction-morphology-intensity-texture
-title: "Feature Extraction: Morphology, Intensity, Texture"
+title: 'Feature Extraction: Morphology, Intensity, Texture'
 subject_id: SUBJ-feature-extraction-quantification
 summary: Derivation of interpretable quantitative features from segmented objects.
 learning_outcomes:
-  - Extract morphology, intensity, and texture features reproducibly.
-  - Identify feature confounders linked to acquisition and preprocessing.
+- Extract morphology, intensity, and texture features reproducibly.
+- Identify feature confounders linked to acquisition and preprocessing.
 prerequisites:
   required:
-    - TOP-classical-segmentation-methods
+  - TOP-classical-segmentation-methods
   recommended:
-    - TOP-image-registration-basics
-    - TOP-segmentation-quality-metrics
+  - TOP-image-registration-basics
+  - TOP-segmentation-quality-metrics
 estimated_time:
   lecture_minutes: 45
   practical_minutes: 60
@@ -26,35 +26,29 @@ audience_prior_knowledge:
   computer_science: medium
 skill_overlap:
   likely_known_by:
-    - biology
-    - computer_science
+  - biology
+  - computer_science
   likely_new_for:
-    - physics
+  - physics
 delivery:
   format_options:
-    - lecture
-    - guided-exercise
+  - lecture
+  - guided-exercise
   assessment:
-    - quiz
-    - practical-checkpoint
-dependencies:
-  enables:
-    - TOP-statistical-testing-and-effect-sizes
-    - TOP-domain-case-study-cell-biology
+  - quiz
+  - practical-checkpoint
 tags:
-  - features
-  - quantification
-  - morphology
-  - texture
+- features
+- quantification
+- morphology
+- texture
 references:
-  -
-    type: publication
-    citation: Journal of Microscopy competency framework (2025).
-    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
-  -
-    type: training-module
-    citation: NEUBIAS Training Resources.
-    url: "https://neubias.github.io/training-resources/"
+- type: publication
+  citation: Journal of Microscopy competency framework (2025).
+  url: https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133
+- type: training-module
+  citation: NEUBIAS Training Resources.
+  url: https://neubias.github.io/training-resources/
 status:
   maturity: draft
   owner: curriculum-team

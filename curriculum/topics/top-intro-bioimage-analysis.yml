@@ -3,13 +3,12 @@ title: Introduction to Bioimage Analysis
 subject_id: SUBJ-imaging-foundations
 summary: Scope, goals, and common workflows in quantitative bioimage analysis.
 learning_outcomes:
-  - Describe the typical BIA pipeline from acquisition to interpretation.
-  - Recognize common failure modes that impact biological conclusions.
+- Describe the typical BIA pipeline from acquisition to interpretation.
+- Recognize common failure modes that impact biological conclusions.
 prerequisites:
   required:
-    - none
-  recommended:
-    []
+  - none
+  recommended: []
 estimated_time:
   lecture_minutes: 30
   practical_minutes: 30
@@ -24,36 +23,29 @@ audience_prior_knowledge:
   physics: low
   computer_science: low
 skill_overlap:
-  likely_known_by:
-    []
+  likely_known_by: []
   likely_new_for:
-    - biology
-    - physics
-    - computer_science
+  - biology
+  - physics
+  - computer_science
 delivery:
   format_options:
-    - lecture
-    - guided-exercise
+  - lecture
+  - guided-exercise
   assessment:
-    - quiz
-    - practical-checkpoint
-dependencies:
-  enables:
-    - TOP-microscopy-modalities-overview
-    - TOP-bioimage-file-formats-and-metadata
+  - quiz
+  - practical-checkpoint
 tags:
-  - foundations
-  - workflow
-  - intro
+- foundations
+- workflow
+- intro
 references:
-  -
-    type: publication
-    citation: Journal of Microscopy competency framework (2025).
-    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
-  -
-    type: training-module
-    citation: NEUBIAS Training Resources.
-    url: "https://neubias.github.io/training-resources/"
+- type: publication
+  citation: Journal of Microscopy competency framework (2025).
+  url: https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133
+- type: training-module
+  citation: NEUBIAS Training Resources.
+  url: https://neubias.github.io/training-resources/
 status:
   maturity: draft
   owner: curriculum-team

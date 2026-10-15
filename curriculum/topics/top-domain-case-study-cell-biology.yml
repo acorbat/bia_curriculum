@@ -1,17 +1,18 @@
 id: TOP-domain-case-study-cell-biology
-title: "Domain Case Study: Cell Biology Quantification"
+title: 'Domain Case Study: Cell Biology Quantification'
 subject_id: SUBJ-domain-applications
-summary: End-to-end cell biology case study integrating acquisition-aware processing and quantitative interpretation.
+summary: End-to-end cell biology case study integrating acquisition-aware processing
+  and quantitative interpretation.
 learning_outcomes:
-  - Assemble an end-to-end BIA workflow for a realistic cell biology question.
-  - Justify method choices and discuss uncertainty transparently.
+- Assemble an end-to-end BIA workflow for a realistic cell biology question.
+- Justify method choices and discuss uncertainty transparently.
 prerequisites:
   required:
-    - TOP-feature-extraction-morphology-intensity-texture
-    - TOP-experimental-design-controls-and-power
+  - TOP-feature-extraction-morphology-intensity-texture
+  - TOP-experimental-design-controls-and-power
   recommended:
-    - TOP-ml-segmentation-overview
-    - TOP-workflows-scripting-and-reproducibility
+  - TOP-ml-segmentation-overview
+  - TOP-workflows-scripting-and-reproducibility
 estimated_time:
   lecture_minutes: 30
   practical_minutes: 90
@@ -27,33 +28,28 @@ audience_prior_knowledge:
   computer_science: low
 skill_overlap:
   likely_known_by:
-    - biology
+  - biology
   likely_new_for:
-    - physics
-    - computer_science
+  - physics
+  - computer_science
 delivery:
   format_options:
-    - lecture
-    - guided-exercise
+  - lecture
+  - guided-exercise
   assessment:
-    - quiz
-    - practical-checkpoint
-dependencies:
-  enables:
-    []
+  - quiz
+  - practical-checkpoint
 tags:
-  - application
-  - case-study
-  - cell-biology
+- application
+- case-study
+- cell-biology
 references:
-  -
-    type: publication
-    citation: Journal of Microscopy competency framework (2025).
-    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
-  -
-    type: training-module
-    citation: NEUBIAS Training Resources.
-    url: "https://neubias.github.io/training-resources/"
+- type: publication
+  citation: Journal of Microscopy competency framework (2025).
+  url: https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133
+- type: training-module
+  citation: NEUBIAS Training Resources.
+  url: https://neubias.github.io/training-resources/
 status:
   maturity: draft
   owner: curriculum-team

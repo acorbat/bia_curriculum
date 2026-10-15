@@ -1,15 +1,16 @@
 id: TOP-ml-segmentation-overview
 title: ML-based Segmentation Overview
 subject_id: SUBJ-machine-learning-bia
-summary: Practical overview of supervised deep-learning segmentation workflows and caveats.
+summary: Practical overview of supervised deep-learning segmentation workflows and
+  caveats.
 learning_outcomes:
-  - Describe training/validation/testing splits for segmentation models.
-  - Recognize data bias and domain-shift risks in biological imaging.
+- Describe training/validation/testing splits for segmentation models.
+- Recognize data bias and domain-shift risks in biological imaging.
 prerequisites:
   required:
-    - TOP-classical-segmentation-methods
+  - TOP-classical-segmentation-methods
   recommended:
-    - TOP-workflows-scripting-and-reproducibility
+  - TOP-workflows-scripting-and-reproducibility
 estimated_time:
   lecture_minutes: 45
   practical_minutes: 60
@@ -25,34 +26,28 @@ audience_prior_knowledge:
   computer_science: medium
 skill_overlap:
   likely_known_by:
-    - computer_science
+  - computer_science
   likely_new_for:
-    - biology
-    - physics
+  - biology
+  - physics
 delivery:
   format_options:
-    - lecture
-    - guided-exercise
+  - lecture
+  - guided-exercise
   assessment:
-    - quiz
-    - practical-checkpoint
-dependencies:
-  enables:
-    - TOP-segmentation-quality-metrics
-    - TOP-domain-case-study-cell-biology
+  - quiz
+  - practical-checkpoint
 tags:
-  - machine-learning
-  - segmentation
-  - validation
+- machine-learning
+- segmentation
+- validation
 references:
-  -
-    type: publication
-    citation: Journal of Microscopy competency framework (2025).
-    url: "https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133"
-  -
-    type: training-module
-    citation: NEUBIAS Training Resources.
-    url: "https://neubias.github.io/training-resources/"
+- type: publication
+  citation: Journal of Microscopy competency framework (2025).
+  url: https://onlinelibrary.wiley.com/doi/10.1111/jmi.70133
+- type: training-module
+  citation: NEUBIAS Training Resources.
+  url: https://neubias.github.io/training-resources/
 status:
   maturity: draft
   owner: curriculum-team

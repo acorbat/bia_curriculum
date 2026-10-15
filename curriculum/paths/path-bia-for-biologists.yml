@@ -1,36 +1,37 @@
 id: PATH-bia-for-biologists
 name: BIA for Biologists
 target_audience: biology
-summary: Application-first pathway with bridge support for optics, statistics, and scripting.
+summary: Application-first pathway with bridge support for optics, statistics, and
+  scripting.
 constraints:
-  total_minutes: 1560
+  total_minutes: 2355
   format: blended
 topics_ordered:
-  - TOP-intro-bioimage-analysis
-  - TOP-microscopy-modalities-overview
-  - TOP-imaging-artifacts-and-bias
-  - TOP-bioimage-file-formats-and-metadata
-  - TOP-data-management-and-quality-control
-  - TOP-basic-wave-optics
-  - TOP-pixel-size-and-sampling
-  - TOP-psf-and-resolution
-  - TOP-noise-models
-  - TOP-background-correction-and-flat-fielding
-  - TOP-denoising-classical-methods
-  - TOP-thresholding-and-binarization
-  - TOP-classical-segmentation-methods
-  - TOP-segmentation-quality-metrics
-  - TOP-feature-extraction-morphology-intensity-texture
-  - TOP-statistical-testing-and-effect-sizes
-  - TOP-experimental-design-controls-and-power
-  - TOP-workflows-scripting-and-reproducibility
-  - TOP-domain-case-study-cell-biology
+- TOP-intro-bioimage-analysis
+- TOP-microscopy-modalities-overview
+- TOP-imaging-artifacts-and-bias
+- TOP-bioimage-file-formats-and-metadata
+- TOP-data-management-and-quality-control
+- TOP-basic-wave-optics
+- TOP-pixel-size-and-sampling
+- TOP-psf-and-resolution
+- TOP-noise-models
+- TOP-background-correction-and-flat-fielding
+- TOP-denoising-classical-methods
+- TOP-thresholding-and-binarization
+- TOP-classical-segmentation-methods
+- TOP-segmentation-quality-metrics
+- TOP-feature-extraction-morphology-intensity-texture
+- TOP-statistical-testing-and-effect-sizes
+- TOP-experimental-design-controls-and-power
+- TOP-workflows-scripting-and-reproducibility
+- TOP-domain-case-study-cell-biology
 optional_bridge_topics:
-  - TOP-basic-wave-optics
-  - TOP-statistical-testing-and-effect-sizes
-  - TOP-workflows-scripting-and-reproducibility
+- TOP-basic-wave-optics
+- TOP-statistical-testing-and-effect-sizes
+- TOP-workflows-scripting-and-reproducibility
 outcomes:
-  - Design and run a reproducible BIA workflow for cell biology questions.
+- Design and run a reproducible BIA workflow for cell biology questions.
 status:
   maturity: draft
   owner: curriculum-team
