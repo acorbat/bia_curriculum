@@ -29,7 +29,8 @@ The workflow at `.github/workflows/pages.yml` validates the curriculum and deplo
 - `curriculum/paths/*.yml` — curated, ordered audience-specific learning paths.
 - `curriculum/graphs/topic-dependencies.yml` — generated graph export; do not edit by hand.
 - `web/data/curriculum.json` — generated data consumed by the explorer; do not edit by hand.
-- `scripts/build_curriculum.py` — validates IDs/references, required prerequisite cycles and path prerequisite order, then generates the graph export and explorer data.
+- `web/LICENSE` — generated copy of the project license served from the explorer footer; do not edit by hand.
+- `scripts/build_curriculum.py` — validates IDs/references, required prerequisite cycles and path prerequisite order, then generates the graph export, explorer data, and deployed license copy.
 
 After editing curriculum YAML, run:
 
@@ -55,5 +56,9 @@ For a path, include all required prerequisites in `topics_ordered` and put them 
 - `templates/` — templates for new entries
 - `scripts/` — validation and data generation
 - `web/` — static interactive curriculum explorer
+
+## License
+
+Unless otherwise noted, original materials in this repository—including curriculum content, documentation, and project source—are licensed under the **Creative Commons Attribution 4.0 International (CC BY 4.0)** license; see [`LICENSE`](LICENSE) or <https://creativecommons.org/licenses/by/4.0/>. Please attribute the work to **Bioimage Analysis Curriculum contributors**, link to this repository and the license, and indicate if you made changes. Third-party materials and resources remain under their own terms; this license does not relicense them.
 
 See [`AGENTS.md`](AGENTS.md) for project conventions and the curriculum annotation schema.

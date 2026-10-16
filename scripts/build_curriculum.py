@@ -15,7 +15,8 @@ import yaml
 
 ROOT = Path(__file__).resolve().parents[1]
 CURRICULUM = ROOT / "curriculum"
-WEB_DATA = ROOT / "web" / "data"
+WEB = ROOT / "web"
+WEB_DATA = WEB / "data"
 GRAPH_FILE = CURRICULUM / "graphs" / "topic-dependencies.yml"
 
 
@@ -226,6 +227,7 @@ def main() -> int:
     generated = {
         WEB_DATA / "curriculum.json": json.dumps(payload, indent=2, ensure_ascii=False, default=lambda value: value.isoformat() if isinstance(value, (date, datetime)) else str(value)) + "\n",
         GRAPH_FILE: yaml.safe_dump({"edges": edges}, sort_keys=False, allow_unicode=True),
+        WEB / "LICENSE": (ROOT / "LICENSE").read_text(encoding="utf-8"),
     }
     if args.check:
         stale = [path.relative_to(ROOT) for path, content in generated.items() if not path.exists() or path.read_text(encoding="utf-8") != content]
